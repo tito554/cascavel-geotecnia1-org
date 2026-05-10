@@ -1,0 +1,51 @@
+# Geotecnia1 — Cascavel
+
+> Geotechnical engineering services in Cascavel, Brasil.
+
+## Services
+- [Ancoragens](https://cascavel.geotecnia1.org/ancoragens/)
+- [Cbr Viario](https://cascavel.geotecnia1.org/cbr-viario/)
+- [Colunas Brita](https://cascavel.geotecnia1.org/colunas-brita/)
+- [Densidade Cone Areia](https://cascavel.geotecnia1.org/densidade-cone-areia/)
+- [Ensaio Cpt](https://cascavel.geotecnia1.org/ensaio-cpt/)
+- [Ensaios Proctor](https://cascavel.geotecnia1.org/ensaios-proctor/)
+- [Escavacoes](https://cascavel.geotecnia1.org/escavacoes/)
+- [Escavacoes Profundas](https://cascavel.geotecnia1.org/escavacoes-profundas/)
+- [Estabilidade Taludes](https://cascavel.geotecnia1.org/estabilidade-taludes/)
+- [Estacas](https://cascavel.geotecnia1.org/estacas/)
+- [Fundacoes](https://cascavel.geotecnia1.org/fundacoes/)
+- [Geotecnia Viaria](https://cascavel.geotecnia1.org/geotecnia-viaria/)
+- [Granulometria](https://cascavel.geotecnia1.org/granulometria/)
+- [Injecoes](https://cascavel.geotecnia1.org/injecoes/)
+- [Investigacao](https://cascavel.geotecnia1.org/investigacao/)
+- [Isolamento Sismico](https://cascavel.geotecnia1.org/isolamento-sismico/)
+- [Lab In Situ](https://cascavel.geotecnia1.org/lab-in-situ/)
+- [Laboratorio](https://cascavel.geotecnia1.org/laboratorio/)
+- [Limites Atterberg](https://cascavel.geotecnia1.org/limites-atterberg/)
+- [Liquefacao](https://cascavel.geotecnia1.org/liquefacao/)
+- [Masw](https://cascavel.geotecnia1.org/masw/)
+- [Melhoramento](https://cascavel.geotecnia1.org/melhoramento/)
+- [Microzoneamento Sismico](https://cascavel.geotecnia1.org/microzoneamento-sismico/)
+- [Monitoramento Escavacoes](https://cascavel.geotecnia1.org/monitoramento-escavacoes/)
+- [Muros Contencao](https://cascavel.geotecnia1.org/muros-contencao/)
+- [Pavimento Flexivel](https://cascavel.geotecnia1.org/pavimento-flexivel/)
+- [Pavimento Rigido](https://cascavel.geotecnia1.org/pavimento-rigido/)
+- [Permeabilidade In Situ](https://cascavel.geotecnia1.org/permeabilidade-in-situ/)
+- [Pocos Inspecao](https://cascavel.geotecnia1.org/pocos-inspecao/)
+- [Radiers](https://cascavel.geotecnia1.org/radiers/)
+- [Refracao Sismica](https://cascavel.geotecnia1.org/refracao-sismica/)
+- [Resistividade](https://cascavel.geotecnia1.org/resistividade/)
+- [Sapatas](https://cascavel.geotecnia1.org/sapatas/)
+- [Sismica](https://cascavel.geotecnia1.org/sismica/)
+- [Sondagens Spt](https://cascavel.geotecnia1.org/sondagens-spt/)
+- [Taludes](https://cascavel.geotecnia1.org/taludes/)
+- [Triaxial](https://cascavel.geotecnia1.org/triaxial/)
+- [Tuneis Solo Mole](https://cascavel.geotecnia1.org/tuneis-solo-mole/)
+- [Vibrocompactacao](https://cascavel.geotecnia1.org/vibrocompactacao/)
+
+## Contact
+- Website: https://cascavel.geotecnia1.org/
+
+## About
+This site provides geotechnical engineering services in Cascavel, Brasil.
+Compliant with local and international standards (ASTM, ISO, country-specific norms).

@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head><link rel="icon" type="image/svg+xml" href="/img/favicon.svg"><link rel="apple-touch-icon" href="/img/favicon.svg">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Exploração em Cascavel – Brazil</title>
+<meta name="description" content="Em Cascavel, a categoria de exploração geotécnica abrange investigações de campo e laboratório essenciais para caracterizar o subsolo diante do perfil basá">
+<link rel="canonical" href="https://cascavel.geotecnia1.org/investigacao/">
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Exploração em Cascavel – Brazil">
+<meta property="og:description" content="Em Cascavel, a categoria de exploração geotécnica abrange investigações de campo e laboratório essenciais para caracterizar o subsolo diante do perfil basá">
+<meta property="og:url" content="https://cascavel.geotecnia1.org/investigacao/">
+<meta property="og:site_name" content="Geotecnia1">
+<meta property="og:image" content="https://cascavel.geotecnia1.org/img/anclajes-4.webp">
+<meta property="og:locale" content="pt_BR">
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Exploração em Cascavel – Brazil">
+<meta name="twitter:description" content="Em Cascavel, a categoria de exploração geotécnica abrange investigações de campo e laboratório essenciais para caracterizar o subsolo diante do perfil basá">
+<style>
+
+@media (max-width: 900px) {
+    .sidebar { display: none; }
+    .content-area { flex-direction: column; }
+    .container { padding: 1rem; }
+    .header-top { flex-direction: column; text-align: center; }
+    main { padding: 1.5rem; }
+}
+th, td { padding: .85rem 1rem; text-align: left; border-bottom: 1px solid #e2e8f0; }
+.sidebar nav .home:hover { background: rgba(255,255,255,0.08); }
+th { background: var(--dark); color: white; font-weight: 600; font-family: var(--font-h); font-size: .85rem; text-transform: uppercase; letter-spacing: .05em; }
+.servicios-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
+.servicio:hover { border-color: var(--primary); }
+h1, h2, h3, h4 { font-family: var(--font-h); }
+.sidebar .cat-sub a {
+    display: block; padding: .4rem 1rem .4rem 1.75rem; color: rgba(255,255,255,0.7);
+    font-size: .78rem; transition: all .15s; text-decoration: none;
+    border-left: 2px solid transparent;
+}
+.container { max-width: 1200px; margin: 0 auto; padding: 2rem; }
+.sidebar .cat-toggle[aria-expanded="true"] .cat-arrow { transform: rotate(180deg); display: inline-block; }
+details[open] summary::before { content: '− '; }
+.cta h3 { font-size: 1.3rem; font-weight: 700; margin-bottom: 1.25rem; color: white; border: none; padding: 0; }
+main h3 { color: var(--dark); font-size: 1.05rem; margin: 1.5rem 0 .5rem; font-weight: 600; }
+:root {
+    --primary: #D4A017;
+    --accent: #EAB308;
+    --dark: #0C1B33;
+    --bg: #FAF9F6;
+    --text: #1E293B;
+    --font-h: 'Playfair Display', 'Segoe UI', sans-serif;
+    --font-b: 'Lora', 'Segoe UI', sans-serif;
+}
+.header-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; gap: 1rem; flex-wrap: wrap; }
+main p { margin-bottom: 1rem; color: #334155; }
+    
+a { color: var(--primary); text-decoration: none; }
+.cta .whatsapp-sub { font-size: .85rem; opacity: .85; margin-bottom: 1rem; }
+
+.cta { background: var(--dark); color: white; padding: 2rem; border-radius: 10px; margin: 2rem 0; text-align: center; }
+
+header { background: var(--dark); color: white; padding: 1.5rem 0 2rem; }
+.header-contact a:hover { color: white; }
+/* FIX 2026-04-18: selectores sin 'nav' para coincidir con el HTML real generado */
+.sidebar { padding: .5rem 0; }
+summary::-webkit-details-marker { display: none; }
+.sidebar .cat-name { color: inherit; text-decoration: none; flex: 1; }
+summary::before { content: '+ '; color: var(--primary); font-weight: 700; }
+
+.content-area { display: flex; gap: 1.5rem; align-items: flex-start; }
+details p { padding: .75rem 1.25rem; font-size: .9rem; color: #475569; margin: 0; }
+.servicio p { margin: 0; font-size: .9rem; color: #475569; }
+main h2 { color: var(--dark); font-size: 1.35rem; margin: 2rem 0 1rem; padding-bottom: .5rem; border-bottom: 2px solid #e2e8f0; font-weight: 600; }
+
+.normas { background: rgba(0,0,0,0.03); padding: 1rem 1.5rem; border-radius: 8px; border-left: 4px solid var(--primary); margin: 1.5rem 0; font-size: .9rem; }
+
+details { margin-bottom: .75rem; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden; }
+main section { margin-bottom: 1.5rem; }
+    
+.servicio { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 1.25rem; transition: border-color .2s; }
+main { background: white; border-radius: 12px; padding: 2.5rem; box-shadow: 0 1px 3px rgba(0,0,0,.06); margin-bottom: 2rem; flex: 1; min-width: 0; }
+.sidebar {
+    width: 240px; background: var(--dark); color: white; flex-shrink: 0;
+    border-radius: 10px; position: sticky; top: 1rem; overflow: hidden;
+    max-height: calc(100vh - 2rem); overflow-y: auto;
+}
+
+#mapa-ciudad { height: 240px; max-width: 630px; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,.1); }
+.cta .contacto-line a { color: white; text-decoration: underline; }
+summary { padding: 1rem 1.25rem; cursor: pointer; font-weight: 500; color: var(--dark); background: #f8fafc; list-style: none; }
+.sidebar .cat-sub[hidden] { display: none; }
+.sidebar .home {
+    display: block; padding: .65rem 1rem; color: rgba(255,255,255,0.9);
+    font-size: .85rem; font-weight: 600;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    text-decoration: none;
+}
+.sidebar .cat-row:hover { background: rgba(255,255,255,0.08); }
+.sidebar .cat-row {
+    display: flex; justify-content: space-between; align-items: center;
+    padding: .65rem 1rem; color: rgba(255,255,255,0.85); font-size: .85rem; font-weight: 500;
+    transition: background .15s;
+}
+.sidebar .cat-sub a:hover { color: #c9a961; background: rgba(201,169,97,0.06); border-left-color: #c9a961; }
+.sidebar .cat-arrow { display: inline-block; transition: transform .2s; }
+    
+.servicio h3 { margin: 0 0 .5rem; color: var(--dark); font-size: .95rem; }
+footer a { color: rgba(255,255,255,0.85); }
+
+footer { text-align: center; padding: 2rem; font-size: .8rem; color: #94a3b8; background: var(--dark); color: rgba(255,255,255,0.7); }
+/* Pattern moderno cat-name + cat-toggle (REGLA 30b) */
+.sidebar .cat-item { border-top: 1px solid rgba(255,255,255,0.04); }
+    
+.sidebar .cat-name:hover { color: #c9a961; }
+.cta .whatsapp-btn {
+    display: inline-block; background: #25D366; color: white;
+    padding: .75rem 1.75rem; border-radius: 8px; font-weight: 600;
+    margin-bottom: 1.25rem; font-size: 1rem;
+}
+.header-contact a { color: rgba(255,255,255,0.85); font-size: .9rem; }
+* { margin:0; padding:0; box-sizing:border-box; }
+
+table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: .9rem; }
+.sidebar .cat-sub {
+    background: rgba(0,0,0,0.15); display: flex; flex-direction: column;
+}
+header h1 { font-size: clamp(1.5rem, 3vw, 2.2rem); line-height: 1.3; color: white; font-weight: 700; }
+.cta .contacto-line { font-size: 1rem; margin: .5rem 0; }
+body { font-family: var(--font-b); color: var(--text); background: var(--bg); line-height: 1.75; font-size: 15px; }
+.sidebar .cat-toggle {
+    background: none; border: 0; color: inherit; cursor: pointer;
+    padding: .2rem .4rem; font-size: .65rem; transition: transform .2s;
+}
+.cta .whatsapp-btn:hover { background: #1eb853; }
+summary:hover { background: rgba(0,0,0,0.02); }
+tr:nth-child(even) { background: #f8fafc; }
+
+</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"inLanguage":"pt","@type":"WebPage","@id":"https://cascavel.geotecnia1.org/investigacao/","name":"Exploração em Cascavel – Brazil","url":"https://cascavel.geotecnia1.org/investigacao/","description":"Em Cascavel, a categoria de exploração geotécnica abrange investigações de campo e laboratório essenciais para caracterizar o subsolo diante do perfil basá","isPartOf":{"@type":"WebSite","url":"https://cascavel.geotecnia1.org","@id":"https://cascavel.geotecnia1.org/#website"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","item":"https://cascavel.geotecnia1.org/","name":"Home","position":1},{"@type":"ListItem","item":"https://cascavel.geotecnia1.org/investigacao/","name":"Exploração","position":2}]},{"@type":"ItemList","itemListElement":[{"@type":"ListItem","name":"Ensaio CPT (Cone Penetration Test)","url":"https://cascavel.geotecnia1.org/ensaio-cpt/","position":1}],"name":"Exploração"}]}</script><link rel="manifest" href="/manifest.json"><meta name="theme-color" content="#1F2937"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"></head>
+<body>
+
+<header>
+    <div class="container">
+        <div class="header-top">
+            <div>
+                <div style="display:inline-flex;flex-direction:column;gap:2px;"><span style="font-family:'Playfair Display',sans-serif;font-weight:800;color:#fafafa;letter-spacing:-0.02em;line-height:1;font-size:24px;">Cascavel</span><div style="height:3px;width:60%;background:#D4A017;border-radius:2px;"></div></div>
+                <div style="color:rgba(255,255,255,0.65);font-size:.8rem;margin-top:.4rem">Cascavel, Brazil</div>
+            </div>
+            <div class="header-contact">
+                <a href="mailto:contato@geotecnia1.org">contato@geotecnia1.org</a>
+            </div>
+        </div>
+        <nav aria-label="breadcrumb" style="padding:.3rem 0;font-size:.78rem;color:rgba(255,255,255,0.75)"><ol style="list-style:none;display:flex;gap:.35rem;flex-wrap:wrap;padding:0;margin:0"><li><a href="/" style="color:inherit;text-decoration:none">Início</a></li><li>›</li><li aria-current="page" style="color:rgba(255,255,255,0.95)">Exploração</li></ol></nav>
+        <h1>Exploração em Cascavel</h1>
+    </div>
+</header>
+
+<div class="container">
+    <div class="content-area">
+        <aside class="sidebar">
+            <nav><a href="index.html" class="home">Início</a><div class="cat-item" data-cat="investigacao"><div class="cat-row"><a href="/investigacao/" class="cat-name">Exploração</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Exploração"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/ensaio-cpt/">Ensaio CPT (Cone Penetration Test)</a></div></div><div class="cat-item" data-cat="lab-in-situ"><div class="cat-row"><a href="/lab-in-situ/" class="cat-name">Ensaios in situ</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Ensaios in situ"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/densidade-cone-areia/">Ensaio de densidade in situ (método do cone de areia)</a></div></div><div class="cat-item" data-cat="laboratorio"><div class="cat-row"><a href="/laboratorio/" class="cat-name">Laboratório</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Laboratório"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/limites-atterberg/">Limites de Atterberg</a></div></div><div class="cat-item" data-cat="fundacoes"><div class="cat-row"><a href="/fundacoes/" class="cat-name">Fundações</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Fundações"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/estacas/">Projeto de fundações em estacas</a></div></div><div class="cat-item" data-cat="taludes"><div class="cat-row"><a href="/taludes/" class="cat-name">Taludes e muros</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Taludes e muros"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/estabilidade-taludes/">Análise de estabilidade de taludes</a><a href="/ancoragens/">Projeto de ancoragens ativas/passivas</a><a href="/muros-contencao/">Projeto de muros de contenção</a></div></div><div class="cat-item" data-cat="melhoramento"><div class="cat-row"><a href="/melhoramento/" class="cat-name">Melhoramento</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Melhoramento"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/colunas-brita/">Projeto de colunas de brita (stone columns)</a><a href="/vibrocompactacao/">Projeto de vibrocompactação</a></div></div><div class="cat-item" data-cat="sismica"><div class="cat-row"><a href="/sismica/" class="cat-name">Sísmica</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Sísmica"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/liquefacao/">Análise de liquefação de solos</a><a href="/microzoneamento-sismico/">Microzoneamento sísmico</a><a href="/isolamento-sismico/">Projeto de isolamento sísmico de base</a></div></div><div class="cat-item" data-cat="geotecnia-viaria"><div class="cat-row"><a href="/geotecnia-viaria/" class="cat-name">Geotecnia viária</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Geotecnia viária"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/cbr-viario/">Estudo CBR para projeto viário</a><a href="/pavimento-flexivel/">Projeto de pavimento flexível</a></div></div><div class="cat-item" data-cat="escavacoes"><div class="cat-row"><a href="/escavacoes/" class="cat-name">Escavações subterrâneas</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Escavações subterrâneas"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/tuneis-solo-mole/">Análise geotécnica para túneis em solo mole</a><a href="/monitoramento-escavacoes/">Monitoramento geotécnico de escavações</a><a href="/escavacoes-profundas/">Projeto geotécnico de escavações profundas</a></div></div></nav>
+        </aside>
+        <main>
+            <section><p>Em Cascavel, a categoria de <strong>exploração geotécnica</strong> abrange investigações de campo e laboratório essenciais para caracterizar o subsolo diante do perfil basáltico predominante da Formação Serra Geral. Seguindo as diretrizes da ABNT NBR 6484 para sondagens, a campanha frequentemente se inicia com o <a href="/ensaio-cpt">ensaio CPT</a>, cuja execução com cone elétrico fornece leituras contínuas de resistência de ponta e atrito lateral, permitindo identificar lentes de solo residual e a profundidade do topo rochoso com alta resolução.</p>
+
+<p>Projetos de fundações profundas para edifícios comerciais e galpões logísticos às margens da BR-277 dependem desses dados para evitar recalques diferenciais. O <a href="/ensaio-cpt">ensaio CPT</a> reduz significativamente a necessidade de perfurações mistas ao mapear cavidades em solo laterítico, cenário recorrente na região. A integração com ensaios de permeabilidade e coleta de amostras indeformadas complementa o modelo geológico, garantindo a segurança de obras de grande porte sobre os solos estruturados do oeste paranaense.</p></section>
+
+            <blockquote style="border-left:4px solid #D4A017;background:rgba(0,0,0,.03);padding:1rem 1.25rem;margin:1.5rem 0 1.5rem 1rem;font-style:italic;color:#333;font-size:1.05rem;line-height:1.55;border-radius:0 6px 6px 0">Bulbo injetado com calda de cimento sob pressão controlada assegura aderência ao solo residual de Cascavel mesmo sob ciclos de saturação.</blockquote>
+
+            
+
+            <section>
+                <h2>Detalhes técnicos do serviço em Cascavel</h2>
+                <div>O clima subtropical úmido de Cascavel, com precipitação anual média de 1.800 mm e estiagens pontuais no inverno, impõe ciclos de umedecimento e secagem que afetam a aderência bulbo-solo. Diferente de regiões com rocha sã aflorante, aqui o topo rochoso frequentemente está recoberto por 3 a 8 metros de solo residual, exigindo perfuração rotopercussiva com revestimento para atravessar o horizonte instável. O projeto diferencia ancoragens ativas — protendidas contra a estrutura, eliminando deslocamentos — de ancoragens passivas, que mobilizam resistência apenas com a deformação do maciço. Em obras de grande porte, combinamos o estudo de <a href="/estabilidade-taludes/">estabilidade de taludes</a> com a análise de transferência de carga ao longo do bulbo, usando critérios de ruptura de Mohr-Coulomb e verificações por equilíbrio limite. A injeção de calda de cimento sob pressão controlada garante o preenchimento total da perfuração e a proteção anticorrosiva dos cordoalhas.</div>
+            </section>
+
+            <figure style="margin:2rem auto;text-align:center;max-width:60%"><img src="/img/anclajes-4.webp" alt="Projeto de Ancoragens Ativas e Passivas em Cascavel" width="600" height="300" loading="lazy" decoding="async" style="width:100%;max-height:160px;object-fit:cover;border-radius:8px"><figcaption style="font-size:.78rem;color:#64748b;margin-top:.4rem">Projeto de Ancoragens Ativas e Passivas em Cascavel</figcaption></figure>
+
+            <div style="max-width:700px;margin:1.5rem auto;border-left:4px solid #D4A017;border-radius:6px;overflow:hidden;background:#FFF;box-shadow:0 1px 3px rgba(0,0,0,.05)"><table style="width:100%;border-collapse:collapse;font-size:.92rem"><thead><tr style="background:#D4A017;color:#FFF"><th style="padding:.75rem 1rem;text-align:left;font-weight:600">Parâmetro</th><th style="padding:.75rem 1rem;text-align:left;font-weight:600">Valor típico</th></tr></thead><tbody><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Carga de trabalho típica (ativa)</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">150 a 800 kN</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Diâmetro da perfuração</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">100 a 150 mm</td></tr><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Comprimento do bulbo</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">3 a 8 m (função do solo)</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Resistência à compressão da calda</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">≥ 25 MPa (28 dias)</td></tr><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Ensaio de recebimento</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">Ensaio de arrancamento (NBR 5629)</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Proteção anticorrosiva</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">Dupla bainha ou bainha corrugada</td></tr><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Inclinação típica</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">15° a 45° em relação à horizontal</td></tr></tbody></table></div>
+
+            
+
+            <section>
+                <h2>Condições geotécnicas locais em Cascavel</h2>
+                <p>Um erro recorrente em obras de Cascavel é subdimensionar o comprimento do bulbo baseando-se apenas na coesão do solo seco, ignorando a perda de sucção durante as chuvas de verão. Quando a ancoragem falha por arrancamento, a cortina atirantada desloca-se e surgem trincas na estrutura contida, gerando retrabalhos que custam mais do que o projeto original. Outro problema grave é a corrosão dos cordoalhas por falta de bainha íntegra ou centralizadores mal posicionados — a calda não envolve o aço completamente e a umidade do solo basáltico ataca a seção metálica. O monitoramento com células de carga em tirantes representativos e a execução de ensaios de arrancamento conforme a NBR 5629 são etapas obrigatórias para validar a carga de projeto antes da protensão definitiva.</p>
+            </section>
+
+            
+    <section class="block mid-cta-cec5-cec5" style="padding:2rem 0">
+      <div style="max-width:720px;margin:0 auto;background:linear-gradient(135deg,#16A34A15,#16A34A08);border-left:4px solid #16A34A;padding:1.6rem 1.8rem;border-radius:8px;text-align:center">
+        <h3 style="margin:0 0 .4rem;font-size:1.15rem;color:#1E293B;text-align:center">Precisa de uma avaliação geotécnica?</h3>
+        <p style="margin:0 0 1rem;color:#64748B;font-size:.92rem;text-align:center">Resposta em menos de 24h.</p>
+        <div style="margin:.4rem 0 0;text-align:center"><a href="mailto:contato@geotecnia1.org" style="display:inline-block;background:#16A34A;color:#FFF !important;padding:1rem 2rem;border-radius:8px;text-decoration:none;font-weight:800;font-size:1.05rem;box-shadow:0 4px 12px rgba(0,0,0,.15)">Email: contato@geotecnia1.org</a></div>
+      </div>
+    </section>
+
+            <div class="normas">
+                <strong>Normas aplicáveis:</strong> ABNT NBR 5629:2018 — Execução de tirantes ancorados no terreno, ABNT NBR 6118:2023 — Projeto de estruturas de concreto (armaduras protendidas), ABNT NBR 6122:2022 — Projeto e execução de fundações, EN 1997-1:2004 — Eurocódigo 7 (critérios de ancoragens), FHWA-IF-99-015 — Ground Anchors and Anchored Systems
+            </div>
+
+            <section>
+                <h2>Nossos serviços</h2>
+                <p>O projeto de ancoragens em Cascavel abrange desde a investigação geotécnica preliminar até a liberação da carga de protensão. Trabalhamos com dois tipos principais de tirantes:</p>
+                <style>.servicios-grid .servicio{flex:0 0 calc(50% - .5rem);min-width:260px;padding:1rem 1.2rem;border:1px solid #E5E7EB;border-radius:10px;background:#FFFFFF;position:relative;transition:border-color .18s,box-shadow .18s,transform .18s}.servicios-grid a.servicio-link{display:block;text-decoration:none;color:inherit;cursor:pointer}.servicios-grid a.servicio-link:hover{border-color:#D4A017;box-shadow:0 4px 14px rgba(0,0,0,.08);transform:translateY(-2px)}.servicios-grid a.servicio-link:hover h3{color:#D4A017}.servicio-arrow{position:absolute;right:1rem;bottom:.8rem;color:#D4A017;font-weight:700;opacity:.55;transition:transform .18s,opacity .18s}.servicios-grid a.servicio-link:hover .servicio-arrow{transform:translateX(4px);opacity:1}.servicios-grid{display:flex;flex-wrap:wrap;gap:1rem;justify-content:flex-start}</style><div class="servicios-grid"><div class="servicio"><h3>Ancoragem Ativa</h3><p>Tirantes protendidos contra a estrutura de contenção, aplicando compressão no maciço e eliminando deslocamentos. Ideais para cortinas de concreto armado em taludes de corte e subsolos de edifícios. Inclui dimensionamento do bulbo, verificação de estabilidade global e especificação da proteção anticorrosiva.</p></div><div class="servicio"><h3>Ancoragem Passiva</h3><p>Barras ou cordoalhas solidarizadas ao maciço por injeção, mobilizando resistência com a deformação do solo. Aplicáveis em muros de gravidade reforçados e grampeamento de taludes naturais. O projeto define espaçamento, comprimento e inclinação com base na envoltória de empuxos.</p></div></div>
+            </section>
+
+            
+<section class="block" style="padding:2rem 1.5rem"><div style="max-width:1200px;margin:0 auto">
+<img src="/img/ensayo-proctor-2.webp" alt="Exploração em Cascavel" loading="lazy" decoding="async" style="width:100%;max-height:220px;object-fit:cover;display:block;border-radius:6px;margin:1.5rem 0">
+<p>Em Cascavel, a exploração geotécnica é a etapa inicial e indispensável para qualquer obra civil, abrangendo desde a caracterização do subsolo até a definição dos parâmetros de resistência e deformabilidade. A região, situada sobre os derrames basálticos da Formação Serra Geral, apresenta solos residuais e saprolíticos de comportamento complexo, frequentemente marcados pela presença de blocos de rocha e horizontes de alteração irregular. As investigações devem atender integralmente à <strong>NBR 6484 (Sondagem de simples reconhecimento com SPT)</strong> e à <strong>NBR 8036 (Programação de sondagens de simples reconhecimento dos solos para fundações de edifícios)</strong>, que estabelecem número mínimo de furos e profundidades com base na área construída e nas cargas previstas. Para projetos mais exigentes, os serviços de <a href="/investigacao/">exploração geotécnica</a> integram métodos complementares que vão além da sondagem a percussão, permitindo uma leitura precisa das transições entre solo residual jovem, saprolito e rocha alterada — condição crítica em taludes e fundações profundas na região oeste do Paraná.</p>
+<p>A metodologia empregada segue normas brasileiras consolidadas e práticas internacionais adaptadas ao contexto local. Além da sondagem SPT com ensaios de penetração normalizados pela <strong>NBR 6484</strong>, utilizamos o <a href="/ensaio-cpt/">ensaio CPT (Cone Penetration Test)</a> conforme a <strong>NBR 34061 (Ensaio de penetração de cone in situ)</strong>, que fornece perfil contínuo de resistência de ponta e atrito lateral, essencial para identificar camadas de baixa consistência ou variações sutis na compacidade dos solos basálticos. Os <a href="/lab-in-situ/">ensaios in situ</a> incluem também o ensaio de palheta (Vane Test) para argilas moles e o pressionétrico para módulos de deformabilidade, sempre correlacionados com os <a href="/limites-atterberg/">limites de Atterberg</a> determinados em <a href="/laboratorio/">laboratório</a> segundo a <strong>NBR 7180 (Limite de plasticidade)</strong> e a <strong>NBR 6459 (Limite de liquidez)</strong>. Essa combinação de técnicas permite calibrar modelos constitutivos e reduzir incertezas na estimativa de capacidade de carga e recalques, especialmente em solos não saturados predominantes no município.</p>
+<p>Os projetos típicos em Cascavel demandam atenção especial à variabilidade vertical e lateral dos solos derivados do basalto. Em obras de médio e grande porte, como edifícios comerciais na região central e condomínios residenciais nos bairros em expansão, a campanha de <a href="/investigacao/">exploração geotécnica</a> frequentemente revela a necessidade de <a href="/fundacoes/">fundações</a> profundas, com destaque para o <a href="/estacas/">projeto de fundações em estacas</a> escavadas ou cravadas que atravessam camadas de solo residual até atingir o topo rochoso ou o maciço basáltico fraturado. Em encostas e cortes de estrada, a caracterização geomecânica dos horizontes saprolíticos é determinante para a estab</p></div></section></main>
+    </div>
+</div>
+
+<footer style="background:#0C1B33;color:rgba(255,255,255,.85);padding:2rem 1.5rem;text-align:center;font-size:.92rem">Cascavel, Brazil · <a href="mailto:contato@geotecnia1.org" style="color:#FFF;text-decoration:underline">contato@geotecnia1.org</a><div data-authority-refs class="authority-refs" style="text-align:center;font-size:.8rem;padding:.5rem 0;opacity:.6"><strong>Referências:</strong> <a href="https://www.abnt.org.br/" rel="nofollow noopener" target="_blank">Normas ABNT</a> · <a href="https://eurocodes.jrc.ec.europa.eu/showpage.php?id=132" rel="nofollow noopener" target="_blank">Eurocódigo 7</a> · <a href="https://www.iso.org/committee/49802.html" rel="nofollow noopener" target="_blank">ISO Geotécnica</a></div><div class="updated-info" data-updated="2026-04-08" style="text-align:center;font-size:.85rem;opacity:.7;padding:.5rem 0">Última atualização: 2026-04-08</div></footer>
+
+<script>
+// Sidebar cat-toggle: click expande/contrae cat-sub (REGLA 30b)
+document.addEventListener('click', function(e) {
+    var btn = e.target.closest('.cat-toggle');
+    if (!btn) return;
+    e.preventDefault();
+    var item = btn.closest('.cat-item');
+    if (!item) return;
+    var sub = item.querySelector('.cat-sub');
+    if (!sub) return;
+    var open = btn.getAttribute('aria-expanded') === 'true';
+    btn.setAttribute('aria-expanded', open ? 'false' : 'true');
+    if (open) {
+        sub.setAttribute('hidden', '');
+    } else {
+        sub.removeAttribute('hidden');
+    }
+});
+</script>
+</body>
+</html>
