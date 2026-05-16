@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head><link rel="icon" type="image/svg+xml" href="/img/favicon.svg"><link rel="apple-touch-icon" href="/img/favicon.svg">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projeto de Pavimento Flexível em Cascavel: Dimensionamento Geotécnico para Rodovias e Vias Urbanas</title>
+<meta name="description" content="Projeto de pavimento flexível em Cascavel com base no método DNER e ensaios CBR. Laboratório acreditado ISO 17025 executa caracterização completa do subleito, reforço e camadas granulares para ob">
+<link rel="canonical" href="https://cascavel.geotecnia1.org/pavimento-flexivel/">
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Projeto de Pavimento Flexível em Cascavel: Dimensionamento Geotécnico para Rodovias e Vias Urbanas">
+<meta property="og:description" content="Projeto de pavimento flexível em Cascavel com base no método DNER e ensaios CBR. Laboratório acreditado ISO 17025 executa caracterização completa do subleito, reforço e camadas granulares para ob">
+<meta property="og:url" content="https://cascavel.geotecnia1.org/pavimento-flexivel/">
+<meta property="og:site_name" content="Geotecnia1">
+<meta property="og:image" content="https://cascavel.geotecnia1.org/img/pavimento-flexible-4.webp">
+<meta property="og:locale" content="pt_BR">
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Projeto de Pavimento Flexível em Cascavel: Dimensionamento Geotécnico para Rodovias e Vias Urbanas">
+<meta name="twitter:description" content="Projeto de pavimento flexível em Cascavel com base no método DNER e ensaios CBR. Laboratório acreditado ISO 17025 executa caracterização completa do subleito, reforço e camadas granulares para ob">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Início", "item": "/"}, {"@type": "ListItem", "position": 2, "name": "Projeto de Pavimento Flexível em Cascavel: Dimensionamento Geotécnico para Rodovias e Vias Urbanas"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Service", "name": "Projeto de Pavimento Flexível em Cascavel: Dimensionamento Geotécnico para Rodovias e Vias Urbanas", "description": "Projeto de pavimento flexível em Cascavel com base no método DNER e ensaios CBR. Laboratório acreditado ISO 17025 executa caracterização completa do subleito, reforço e camadas granulares para ob", "areaServed": {"@type": "City", "name": "Cascavel"}, "provider": {"@type": "LocalBusiness", "name": "Geotecnia1", "email": "contato@geotecnia1.org", "telephone": "", "address": {"@type": "PostalAddress", "addressLocality": "Cascavel", "addressCountry": "BR"}}, "url": "https://cascavel.geotecnia1.org/pavimento-flexivel/"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Qual a importância do CBR para o projeto de pavimento flexível em Cascavel?", "acceptedAnswer": {"@type": "Answer", "text": "O CBR define a capacidade de suporte do subleito. Em Cascavel, os solos argilosos de basalto podem apresentar CBR baixo após saturação, subestimando a resistência de campo. Nosso laboratório realiza o ensaio com imersão por 4 dias, conforme DNER-ME 049/94, para obter o valor de projeto que dimensiona corretamente as camadas granulares."}}, {"@type": "Question", "name": "Qual o custo aproximado para um projeto de pavimento flexível?", "acceptedAnswer": {"@type": "Answer", "text": "O investimento para o projeto de pavimento flexível completo, incluindo investigação geotécnica, ensaios de laboratório e dimensionamento, parte de R$ 100.000, variando conforme a extensão da via, a complexidade do terreno e o volume de ensaios especiais como módulo de resiliência."}}, {"@type": "Question", "name": "Qual o método de dimensionamento utilizado para o pavimento flexível?", "acceptedAnswer": {"@type": "Answer", "text": "Utilizamos o método empírico do DNER, baseado no número N de solicitações do eixo padrão e no CBR do subleito. Para corredores de tráfego pesado em Cascavel, complementamos com a análise mecanística da tensão e deformação nas camadas, verificando a vida útil à fadiga da estrutura."}}]}</script>
+<style>
+:root {
+    --primary: #D4A017;
+    --accent: #EAB308;
+    --dark: #0C1B33;
+    --bg: #FAF9F6;
+    --text: #1E293B;
+    --font-h: 'Playfair Display', 'Segoe UI', sans-serif;
+    --font-b: 'Lora', 'Segoe UI', sans-serif;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family: var(--font-b); color: var(--text); background: var(--bg); line-height: 1.75; font-size: 15px; }
+a { color: var(--primary); text-decoration: none; }
+h1, h2, h3, h4 { font-family: var(--font-h); }
+
+.content-area { display: flex; gap: 1.5rem; align-items: flex-start; }
+.sidebar {
+    width: 240px; background: var(--dark); color: white; flex-shrink: 0;
+    border-radius: 10px; position: sticky; top: 1rem; overflow: hidden;
+    max-height: calc(100vh - 2rem); overflow-y: auto;
+}
+/* FIX 2026-04-18: selectores sin 'nav' para coincidir con el HTML real generado */
+.sidebar { padding: .5rem 0; }
+/* Pattern moderno cat-name + cat-toggle (REGLA 30b) */
+.sidebar .cat-item { border-top: 1px solid rgba(255,255,255,0.04); }
+.sidebar .cat-row {
+    display: flex; justify-content: space-between; align-items: center;
+    padding: .65rem 1rem; color: rgba(255,255,255,0.85); font-size: .85rem; font-weight: 500;
+    transition: background .15s;
+}
+.sidebar .cat-row:hover { background: rgba(255,255,255,0.08); }
+.sidebar .cat-name { color: inherit; text-decoration: none; flex: 1; }
+.sidebar .cat-name:hover { color: #c9a961; }
+.sidebar .cat-toggle {
+    background: none; border: 0; color: inherit; cursor: pointer;
+    padding: .2rem .4rem; font-size: .65rem; transition: transform .2s;
+}
+.sidebar .cat-toggle[aria-expanded="true"] .cat-arrow { transform: rotate(180deg); display: inline-block; }
+.sidebar .cat-arrow { display: inline-block; transition: transform .2s; }
+.sidebar .cat-sub {
+    background: rgba(0,0,0,0.15); display: flex; flex-direction: column;
+}
+.sidebar .cat-sub[hidden] { display: none; }
+.sidebar .cat-sub a {
+    display: block; padding: .4rem 1rem .4rem 1.75rem; color: rgba(255,255,255,0.7);
+    font-size: .78rem; transition: all .15s; text-decoration: none;
+    border-left: 2px solid transparent;
+}
+.sidebar .cat-sub a:hover { color: #c9a961; background: rgba(201,169,97,0.06); border-left-color: #c9a961; }
+.sidebar .home {
+    display: block; padding: .65rem 1rem; color: rgba(255,255,255,0.9);
+    font-size: .85rem; font-weight: 600;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    text-decoration: none;
+}
+.sidebar nav .home:hover { background: rgba(255,255,255,0.08); }
+
+header { background: var(--dark); color: white; padding: 1.5rem 0 2rem; }
+.header-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; gap: 1rem; flex-wrap: wrap; }
+.header-contact a { color: rgba(255,255,255,0.85); font-size: .9rem; }
+.header-contact a:hover { color: white; }
+header h1 { font-size: clamp(1.5rem, 3vw, 2.2rem); line-height: 1.3; color: white; font-weight: 700; }
+.container { max-width: 1200px; margin: 0 auto; padding: 2rem; }
+main { background: white; border-radius: 12px; padding: 2.5rem; box-shadow: 0 1px 3px rgba(0,0,0,.06); margin-bottom: 2rem; flex: 1; min-width: 0; }
+main section { margin-bottom: 1.5rem; }
+main h2 { color: var(--dark); font-size: 1.35rem; margin: 2rem 0 1rem; padding-bottom: .5rem; border-bottom: 2px solid #e2e8f0; font-weight: 600; }
+main h3 { color: var(--dark); font-size: 1.05rem; margin: 1.5rem 0 .5rem; font-weight: 600; }
+main p { margin-bottom: 1rem; color: #334155; }
+
+table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: .9rem; }
+th, td { padding: .85rem 1rem; text-align: left; border-bottom: 1px solid #e2e8f0; }
+th { background: var(--dark); color: white; font-weight: 600; font-family: var(--font-h); font-size: .85rem; text-transform: uppercase; letter-spacing: .05em; }
+tr:nth-child(even) { background: #f8fafc; }
+
+.normas { background: rgba(0,0,0,0.03); padding: 1rem 1.5rem; border-radius: 8px; border-left: 4px solid var(--primary); margin: 1.5rem 0; font-size: .9rem; }
+.servicios-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
+.servicio { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 1.25rem; transition: border-color .2s; }
+.servicio:hover { border-color: var(--primary); }
+.servicio h3 { margin: 0 0 .5rem; color: var(--dark); font-size: .95rem; }
+.servicio p { margin: 0; font-size: .9rem; color: #475569; }
+
+details { margin-bottom: .75rem; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden; }
+summary { padding: 1rem 1.25rem; cursor: pointer; font-weight: 500; color: var(--dark); background: #f8fafc; list-style: none; }
+summary::-webkit-details-marker { display: none; }
+summary::before { content: '+ '; color: var(--primary); font-weight: 700; }
+details[open] summary::before { content: '− '; }
+summary:hover { background: rgba(0,0,0,0.02); }
+details p { padding: .75rem 1.25rem; font-size: .9rem; color: #475569; margin: 0; }
+
+.cta { background: var(--dark); color: white; padding: 2rem; border-radius: 10px; margin: 2rem 0; text-align: center; }
+.cta h3 { font-size: 1.3rem; font-weight: 700; margin-bottom: 1.25rem; color: white; border: none; padding: 0; }
+.cta .whatsapp-btn {
+    display: inline-block; background: #25D366; color: white;
+    padding: .75rem 1.75rem; border-radius: 8px; font-weight: 600;
+    margin-bottom: 1.25rem; font-size: 1rem;
+}
+.cta .whatsapp-btn:hover { background: #1eb853; }
+.cta .whatsapp-sub { font-size: .85rem; opacity: .85; margin-bottom: 1rem; }
+.cta .contacto-line { font-size: 1rem; margin: .5rem 0; }
+.cta .contacto-line a { color: white; text-decoration: underline; }
+
+footer { text-align: center; padding: 2rem; font-size: .8rem; color: #94a3b8; background: var(--dark); color: rgba(255,255,255,0.7); }
+footer a { color: rgba(255,255,255,0.85); }
+
+#mapa-ciudad { height: 240px; max-width: 630px; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,.1); }
+
+@media (max-width: 900px) {
+    .sidebar { display: none; }
+    .content-area { flex-direction: column; }
+    .header-top { flex-direction: column; text-align: center; }
+    main { padding: 1.5rem; }
+    .container { padding: 1rem; }
+}
+</style>
+<link rel="manifest" href="/manifest.json"><meta name="theme-color" content="#1F2937"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><style id="post-fixes-v2">
+/* Inline links visibles en prosa */
+p a[href^="/"]:not(.cta-btn):not(.hero-cta):not(.nav-contact-btn){color:var(--accent,#1d4ed8) !important;text-decoration:underline !important;text-decoration-color:rgba(29,78,216,.45);text-underline-offset:2px;font-weight:600}
+p a[href^="/"]:not(.cta-btn):not(.hero-cta):not(.nav-contact-btn):hover{text-decoration-color:currentColor;opacity:.85}
+/* Sidebar hover adaptive */
+aside .cat-name:hover,aside .sb-home:hover,aside .cat-sub-wrap a:hover,
+aside nav a:hover{color:inherit !important;text-decoration:underline !important;text-underline-offset:3px}
+aside .cat-name,aside .sb-home,aside nav a{color:inherit}
+aside .cat-name:hover,aside .sb-home:hover{background:rgba(127,127,127,.12) !important}
+/* Cat-toggle sin caja */
+.cat-toggle{width:auto !important;min-width:32px;border:none !important;border-left:none !important;background:transparent !important;box-shadow:none !important;padding:.3rem .5rem !important}
+.cat-toggle:hover{background:rgba(127,127,127,.12) !important}
+/* Nav-arrow sin caja */
+.nav-arrow,.nav-arrow:hover,.nav-arrow:focus{background:transparent !important;border:none !important;outline:none !important;padding:0 .15rem !important;color:inherit !important;cursor:pointer !important;box-shadow:none !important}
+/* Navbar compacto */
+.navbar{padding:.65rem 1rem !important}
+.navbar .nav{gap:.55rem !important}
+.nav-item{font-size:.74rem !important;letter-spacing:.01em !important}
+.logo-box,.brand-name,.brand{font-size:.82rem !important}
+/* Layout defensive */
+body{overflow-x:clip;max-width:100vw}
+body>*{max-width:100vw}
+</style>
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <div class="header-top">
+            <div>
+                <div style="display:inline-flex;flex-direction:column;gap:2px;"><span style="font-family:'Playfair Display',sans-serif;font-weight:800;color:#fafafa;letter-spacing:-0.02em;line-height:1;font-size:24px;">Cascavel</span><div style="height:3px;width:60%;background:#D4A017;border-radius:2px;"></div></div>
+                <div style="color:rgba(255,255,255,0.65);font-size:.8rem;margin-top:.4rem">Cascavel, Brazil</div>
+            </div>
+            <div class="header-contact">
+                <a href="mailto:contato@geotecnia1.org">contato@geotecnia1.org</a>
+            </div>
+        </div>
+        <nav aria-label="breadcrumb" style="padding:.3rem 0;font-size:.78rem;color:rgba(255,255,255,0.75)"><ol style="list-style:none;display:flex;gap:.35rem;flex-wrap:wrap;padding:0;margin:0"><li><a href="/" style="color:inherit;text-decoration:none">Início</a></li><li>›</li><li>Geotecnia Viária</li><li>›</li><li aria-current="page" style="color:rgba(255,255,255,0.95)">Projeto de Pavimento Flexível em Cascavel: Dimensionamento G…</li></ol></nav>
+        <h1>Projeto de Pavimento Flexível em Cascavel: Dimensionamento Geotécnico para Rodovias e Vias Urbanas</h1>
+    </div>
+</header>
+
+<div class="container">
+    <div class="content-area">
+        <aside class="sidebar">
+            <nav><a href="index.html" class="home">Início</a><div class="cat-item" data-cat="investigacao"><div class="cat-row"><a href="/investigacao/" class="cat-name">Exploração</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Exploração"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/ensaio-cpt/">Ensaio CPT (Cone Penetration Test)</a></div></div><div class="cat-item" data-cat="lab-in-situ"><div class="cat-row"><a href="/lab-in-situ/" class="cat-name">Ensaios in situ</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Ensaios in situ"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/densidade-cone-areia/">Ensaio de densidade in situ (método do cone de areia)</a></div></div><div class="cat-item" data-cat="laboratorio"><div class="cat-row"><a href="/laboratorio/" class="cat-name">Laboratório</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Laboratório"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/limites-atterberg/">Limites de Atterberg</a></div></div><div class="cat-item" data-cat="fundacoes"><div class="cat-row"><a href="/fundacoes/" class="cat-name">Fundações</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Fundações"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/estacas/">Projeto de fundações em estacas</a></div></div><div class="cat-item" data-cat="taludes"><div class="cat-row"><a href="/taludes/" class="cat-name">Taludes e muros</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Taludes e muros"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/estabilidade-taludes/">Análise de estabilidade de taludes</a><a href="/ancoragens/">Projeto de ancoragens ativas/passivas</a><a href="/muros-contencao/">Projeto de muros de contenção</a></div></div><div class="cat-item" data-cat="melhoramento"><div class="cat-row"><a href="/melhoramento/" class="cat-name">Melhoramento</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Melhoramento"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/colunas-brita/">Projeto de colunas de brita (stone columns)</a><a href="/vibrocompactacao/">Projeto de vibrocompactação</a></div></div><div class="cat-item" data-cat="sismica"><div class="cat-row"><a href="/sismica/" class="cat-name">Sísmica</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Sísmica"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/liquefacao/">Análise de liquefação de solos</a><a href="/microzoneamento-sismico/">Microzoneamento sísmico</a><a href="/isolamento-sismico/">Projeto de isolamento sísmico de base</a></div></div><div class="cat-item" data-cat="geotecnia-viaria"><div class="cat-row"><a href="/geotecnia-viaria/" class="cat-name">Geotecnia viária</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Geotecnia viária"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/cbr-viario/">Estudo CBR para projeto viário</a><a href="/pavimento-flexivel/">Projeto de pavimento flexível</a></div></div><div class="cat-item" data-cat="escavacoes"><div class="cat-row"><a href="/escavacoes/" class="cat-name">Escavações subterrâneas</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Escavações subterrâneas"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/tuneis-solo-mole/">Análise geotécnica para túneis em solo mole</a><a href="/monitoramento-escavacoes/">Monitoramento geotécnico de escavações</a><a href="/escavacoes-profundas/">Projeto geotécnico de escavações profundas</a></div></div></nav>
+        </aside>
+        <main>
+            <section><p>O horizonte de solo residual de basalto predomina em Cascavel, comumente classificado como LG' (argila siltosa laterítica) nas primeiras camadas. A média pluviométrica anual de 1800 mm e o relevo ondulado impõem condições severas de drenagem para qualquer estrutura de pavimento. A execução de um projeto de pavimento flexível confiável depende diretamente da caracterização precisa do subleito local. Nosso laboratório realiza as investigações geotécnicas conforme os procedimentos do DNER, essenciais para definir a espessura das camadas de base, sub-base e revestimento. Combinamos o <a data-interlink="1" href="/cbr-viario/">ensaio CBR</a> com a <a href="/granulometria/">granulometria dos agregados</a> para garantir que o material da região atenda às faixas especificadas, especialmente nos trechos com maior suscetibilidade à deformação permanente.</p></section>
+
+            <blockquote style="border-left:4px solid #D4A017;background:rgba(0,0,0,.03);padding:1rem 1.25rem;margin:1.5rem 0 1.5rem 1rem;font-style:italic;color:#333;font-size:1.05rem;line-height:1.55;border-radius:0 6px 6px 0">O pavimento flexível bem dimensionado em Cascavel depende mais da qualidade do subleito compactado do que do CAUQ superficial.</blockquote>
+
+            
+
+            <section>
+                <h2>Detalhes técnicos do serviço em Cascavel</h2>
+                <div>Em Cascavel, muitas vezes vemos que a homogeneidade do solo de alteração de basalto engana: a plasticidade varia bruscamente em curtas distâncias. Um projeto de pavimento flexível precisa antecipar essas transições para evitar trincas por retração e bombeamento de finos. Nossa abordagem integra o estudo de tráfego projetado com o número N característico do subleito e das jazidas. Utilizamos o ensaio de compactação Proctor para determinar a massa específica aparente seca máxima e a umidade ótima de cada camada. Para obras de maior porte, a avaliação do módulo de resiliência do solo e das misturas asfálticas complementa o dimensionamento empírico-mecanístico. Além disso, a verificação da <a href="/estabilidade-taludes/">estabilidade de taludes</a> é indispensável nos aterros de encosta que dão acesso aos novos loteamentos, garantindo a integridade da plataforma viária.</div>
+            </section>
+
+            <figure style="margin:2rem auto;text-align:center;max-width:60%"><img src="/img/pavimento-flexible-4.webp" alt="Projeto de Pavimento Flexível em Cascavel: Dimensionamento Geotécnico para Rodovias e Vias Urbanas" width="600" height="300" loading="lazy" decoding="async" style="width:100%;max-height:160px;object-fit:cover;border-radius:8px"><figcaption style="font-size:.78rem;color:#64748b;margin-top:.4rem">Projeto de Pavimento Flexível em Cascavel: Dimensionamento Geotécnico para Rodovias e Vias Urbanas</figcaption></figure>
+
+            <div style="max-width:700px;margin:1.5rem auto;border-left:4px solid #D4A017;border-radius:6px;overflow:hidden;background:#FFF;box-shadow:0 1px 3px rgba(0,0,0,.05)"><table style="width:100%;border-collapse:collapse;font-size:.92rem"><thead><tr style="background:#D4A017;color:#FFF"><th style="padding:.75rem 1rem;text-align:left;font-weight:600">Parâmetro</th><th style="padding:.75rem 1rem;text-align:left;font-weight:600">Valor típico</th></tr></thead><tbody><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Índice de Suporte Califórnia (CBR)</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">≥ 6% para subleito; ≥ 20% para sub-base</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Expansão (Ensaio CBR)</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">≤ 2% (subleito); ≤ 1% (reforço e sub-base)</td></tr><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Classificação HRB do subleito</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">Predomínio A-7-5 e A-6 (solos argilosos lateríticos)</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Número N de projeto (DNER)</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">Calculado com base no VMDa e fator de carga (USACE)</td></tr><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Compactação do subleito</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">100% Proctor Normal (últimos 60 cm de terraplenagem)</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Módulo de Resiliência (MR)</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">Determinado por compressão diametral (DNIT 135/2018-ME)</td></tr><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Espessura mínima do revestimento</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">Função de N e do coeficiente estrutural (K_R)</td></tr></tbody></table></div>
+
+            
+
+            <section>
+                <h2>Condições geotécnicas locais em Cascavel</h2>
+                <p>A norma DNIT 059/2004-ES estabelece os critérios de aceitação para subleito e camadas de pavimento. Ignorar a drenagem profunda e superficial em Cascavel leva à saturação precoce da fundação da rodovia. O dimensionamento de um projeto de pavimento flexível na região deve considerar obrigatoriamente a ascensão capilar do lençol freático suspenso, típico dos platôs basálticos. Quando a deflexão medida com viga Benkelman supera o valor admissível, a vida útil do pavimento pode ser reduzida em até 60%, exigindo recapeamentos prematuros. Nosso laboratório realiza o controle tecnológico completo, desde a liberação da fundação até a aplicação do ligante asfáltico, mitigando o risco de afundamentos em trilha de roda e corrugações.</p>
+            </section>
+
+            
+    <section class="block mid-cta" style="padding:2rem 0">
+      <div style="max-width:720px;margin:0 auto;background:linear-gradient(135deg,#16A34A15,#16A34A08);border-left:4px solid #16A34A;padding:1.6rem 1.8rem;border-radius:8px;text-align:center">
+        <h3 style="margin:0 0 .4rem;font-size:1.15rem;color:#1E293B;text-align:center">Precisa de uma avaliação geotécnica?</h3>
+        <p style="margin:0 0 1rem;color:#64748B;font-size:.92rem;text-align:center">Resposta em menos de 24h.</p>
+        <div style="margin:.4rem 0 0;text-align:center"><a href="mailto:contato@geotecnia1.org" style="display:inline-block;background:#16A34A;color:#FFF !important;padding:1rem 2rem;border-radius:8px;text-decoration:none;font-weight:800;font-size:1.05rem;box-shadow:0 4px 12px rgba(0,0,0,.15)">Email: contato@geotecnia1.org</a></div>
+      </div>
+    </section>
+
+            <div class="normas">
+                <strong>Normas aplicáveis:</strong> DNIT 059/2004-ES: Subleito – Especificação de serviço, DNER-ME 049/94: Ensaio de compactação CBR, DNIT 135/2018-ME: Módulo de resiliência – Misturas asfálticas
+            </div>
+
+            <section>
+                <h2>Nossos serviços</h2>
+                <p>O projeto de pavimento flexível abrange desde a investigação preliminar do solo até o controle final de execução. Em Cascavel, adaptamos o método de dimensionamento às características específicas do solo residual de basalto.</p>
+                <style>.servicios-grid{display:flex;flex-wrap:wrap;gap:1rem;justify-content:flex-start}.servicios-grid .servicio{flex:0 0 calc(50% - .5rem);min-width:260px;padding:1rem 1.2rem;border:1px solid #E5E7EB;border-radius:10px;background:#FFFFFF;position:relative;transition:border-color .18s,box-shadow .18s,transform .18s}.servicios-grid a.servicio-link{display:block;text-decoration:none;color:inherit;cursor:pointer}.servicios-grid a.servicio-link:hover{border-color:#D4A017;box-shadow:0 4px 14px rgba(0,0,0,.08);transform:translateY(-2px)}.servicios-grid a.servicio-link:hover h3{color:#D4A017}.servicio-arrow{position:absolute;right:1rem;bottom:.8rem;color:#D4A017;font-weight:700;opacity:.55;transition:transform .18s,opacity .18s}.servicios-grid a.servicio-link:hover .servicio-arrow{transform:translateX(4px);opacity:1}</style><div class="servicios-grid"><div class="servicio"><h3>Investigação geotécnica do subleito</h3><p>Execução de sondagens a trado e coleta de amostras indeformadas ao longo do traçado da via para determinação do CBR de projeto e classificação MCT.</p></div><div class="servicio"><h3>Dimensionamento de camadas (método DNER)</h3><p>Cálculo de espessuras de reforço, sub-base, base e revestimento asfáltico utilizando o ábaco de dimensionamento e os coeficientes de equivalência estrutural.</p></div><div class="servicio"><h3>Controle tecnológico de execução</h3><p>Monitoramento da compactação in situ com <a data-interlink="1" href="/densidade-cone-areia/">densidade in situ (cone de areia)</a>, ensaios de grau de compactação e verificação da espessura das camadas por furos de sondagem.</p></div></div>
+            </section>
+
+            <section>
+                <h2>Perguntas frequentes</h2>
+                <details><summary>Qual a importância do CBR para o projeto de pavimento flexível em Cascavel?</summary><p>O CBR define a capacidade de suporte do subleito. Em Cascavel, os solos argilosos de basalto podem apresentar CBR baixo após saturação, subestimando a resistência de campo. Nosso laboratório realiza o ensaio com imersão por 4 dias, conforme DNER-ME 049/94, para obter o valor de projeto que dimensiona corretamente as camadas granulares.</p></details><details><summary>Qual o custo aproximado para um projeto de pavimento flexível?</summary><p>O investimento para o projeto de pavimento flexível completo, incluindo investigação geotécnica, ensaios de laboratório e dimensionamento, parte de R$ 100.000, variando conforme a extensão da via, a complexidade do terreno e o volume de ensaios especiais como módulo de resiliência.</p></details><details><summary>Qual o método de dimensionamento utilizado para o pavimento flexível?</summary><p>Utilizamos o método empírico do DNER, baseado no número N de solicitações do eixo padrão e no CBR do subleito. Para corredores de tráfego pesado em Cascavel, complementamos com a análise mecanística da tensão e deformação nas camadas, verificando a vida útil à fadiga da estrutura.</p></details>
+            </section>
+
+            <section>
+                <h2>Cobertura em Cascavel</h2>
+                <link rel="stylesheet" href="/css/leaflet.css"/>
+                <div id="mapa-ciudad"></div>
+                <script src="/js/leaflet.js"></script>
+                <script>
+                    var map = L.map('mapa-ciudad').setView([-24.9554996,-53.4560544], 12);
+                    L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}@2x.png',{attribution:'&copy; OSM &copy; CARTO',subdomains:'abcd',maxZoom:19}).addTo(map);L.marker([-24.9554996,-53.4560544],{icon:L.divIcon({html:'<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 36\" width=\"24\" height=\"36\"><path d=\"M12 0C5.4 0 0 5.4 0 12c0 9 12 24 12 24s12-15 12-24c0-6.6-5.4-12-12-12z\" fill=\"#E11D48\" stroke=\"#FFF\" stroke-width=\"1.5\"/><circle cx=\"12\" cy=\"12\" r=\"4\" fill=\"#FFF\"/></svg>',className:'',iconSize:[24,36],iconAnchor:[12,36]})}).addTo(map);
+                    L.circle([-24.9554996,-53.4560544],{radius:3000,color:'#D4A017',fillColor:'#EAB308',fillOpacity:0.18,weight:2}).addTo(map).bindPopup('Coverage area — Cascavel');
+                </script>
+            </section>
+        </main>
+    </div>
+</div>
+
+<footer style="background:#0C1B33;color:rgba(255,255,255,.85);padding:2rem 1.5rem;text-align:center;font-size:.92rem">Cascavel, Brazil · <a href="mailto:contato@geotecnia1.org" style="color:#FFF;text-decoration:underline">contato@geotecnia1.org</a><div data-authority-refs class="authority-refs" style="text-align:center;font-size:.8rem;padding:.5rem 0;opacity:.6"><strong>Referências:</strong> <a href="https://www.abnt.org.br/" rel="nofollow noopener" target="_blank">Normas ABNT</a> · <a href="https://eurocodes.jrc.ec.europa.eu/showpage.php?id=132" rel="nofollow noopener" target="_blank">Eurocódigo 7</a> · <a href="https://www.iso.org/committee/49802.html" rel="nofollow noopener" target="_blank">ISO Geotécnica</a></div><div class="updated-info" data-updated="2026-05-14" style="text-align:center;font-size:.85rem;opacity:.7;padding:.5rem 0">Última atualização: 2026-05-14</div></footer>
+
+<script>
+// Sidebar cat-toggle: click expande/contrae cat-sub (REGLA 30b)
+document.addEventListener('click', function(e) {
+    var btn = e.target.closest('.cat-toggle');
+    if (!btn) return;
+    e.preventDefault();
+    var item = btn.closest('.cat-item');
+    if (!item) return;
+    var sub = item.querySelector('.cat-sub');
+    if (!sub) return;
+    var open = btn.getAttribute('aria-expanded') === 'true';
+    btn.setAttribute('aria-expanded', open ? 'false' : 'true');
+    if (open) {
+        sub.setAttribute('hidden', '');
+    } else {
+        sub.removeAttribute('hidden');
+    }
+});
+</script>
+</body>
+</html>

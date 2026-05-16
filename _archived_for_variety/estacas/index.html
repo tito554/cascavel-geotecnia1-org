@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head><link rel="icon" type="image/svg+xml" href="/img/favicon.svg"><link rel="apple-touch-icon" href="/img/favicon.svg">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projeto de fundações em estacas em Cascavel: critérios técnicos e investigação geotécnica</title>
+<meta name="description" content="Dimensionamento de fundações em estacas em Cascavel com base em sondagens SPT, ensaios de laboratório e análise da capacidade de carga. Atendimento técnico conforme NBR 6122.">
+<link rel="canonical" href="https://cascavel.geotecnia1.org/estacas/">
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Projeto de fundações em estacas em Cascavel: critérios técnicos e investigação geotécnica">
+<meta property="og:description" content="Dimensionamento de fundações em estacas em Cascavel com base em sondagens SPT, ensaios de laboratório e análise da capacidade de carga. Atendimento técnico conforme NBR 6122.">
+<meta property="og:url" content="https://cascavel.geotecnia1.org/estacas/">
+<meta property="og:site_name" content="Geotecnia1">
+<meta property="og:image" content="https://cascavel.geotecnia1.org/img/pilotes-3.webp">
+<meta property="og:locale" content="pt_BR">
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Projeto de fundações em estacas em Cascavel: critérios técnicos e investigação geotécnica">
+<meta name="twitter:description" content="Dimensionamento de fundações em estacas em Cascavel com base em sondagens SPT, ensaios de laboratório e análise da capacidade de carga. Atendimento técnico conforme NBR 6122.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Início", "item": "/"}, {"@type": "ListItem", "position": 2, "name": "Projeto de fundações em estacas em Cascavel: critérios técnicos e investigação geotécnica"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Service", "name": "Projeto de fundações em estacas em Cascavel: critérios técnicos e investigação geotécnica", "description": "Dimensionamento de fundações em estacas em Cascavel com base em sondagens SPT, ensaios de laboratório e análise da capacidade de carga. Atendimento técnico conforme NBR 6122.", "areaServed": {"@type": "City", "name": "Cascavel"}, "provider": {"@type": "LocalBusiness", "name": "Geotecnia1", "email": "contato@geotecnia1.org", "telephone": "", "address": {"@type": "PostalAddress", "addressLocality": "Cascavel", "addressCountry": "BR"}}, "url": "https://cascavel.geotecnia1.org/estacas/"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Qual o custo médio do projeto de fundações em estacas em Cascavel?", "acceptedAnswer": {"@type": "Answer", "text": "O valor gira em torno de $100.000, dependendo da complexidade da obra, do número de furos de sondagem exigidos pela NBR 8036 e da necessidade de ensaios complementares como prova de carga estática."}}, {"@type": "Question", "name": "Como a geologia de Cascavel influencia a escolha do tipo de estaca?", "acceptedAnswer": {"@type": "Answer", "text": "A predominância de basalto da Formação Serra Geral a profundidades variáveis entre 8 e 20 metros torna as estacas de ponta em rocha muito eficientes. Contudo, a camada de solo residual argiloso sobre o topo rochoso exige estacas com boa capacidade de carga por atrito lateral, como a hélice contínua."}}, {"@type": "Question", "name": "É obrigatório realizar prova de carga em estacas na região?", "acceptedAnswer": {"@type": "Answer", "text": "Sim, a NBR 6122:2019 exige prova de carga estática ou dinâmica em um percentual mínimo de estacas. Em Cascavel, recomendamos prova de carga estática sempre que a obra ultrapassar 400 m² ou quando o topo rochoso for muito irregular, para validar o coeficiente de segurança adotado."}}, {"@type": "Question", "name": "Qual a vida útil esperada para fundações em estacas nesse tipo de solo?", "acceptedAnswer": {"@type": "Answer", "text": "Com concreto adequado à classe de agressividade ambiental (geralmente II em Cascavel, exceto em zonas industriais), cobrimento de armadura conforme NBR 6118 e execução com integridade verificada, a vida útil de projeto supera 50 anos sem intervenção."}}]}</script>
+<style>
+:root {
+    --primary: #D4A017;
+    --accent: #EAB308;
+    --dark: #0C1B33;
+    --bg: #FAF9F6;
+    --text: #1E293B;
+    --font-h: 'Playfair Display', 'Segoe UI', sans-serif;
+    --font-b: 'Lora', 'Segoe UI', sans-serif;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family: var(--font-b); color: var(--text); background: var(--bg); line-height: 1.75; font-size: 15px; }
+a { color: var(--primary); text-decoration: none; }
+h1, h2, h3, h4 { font-family: var(--font-h); }
+
+.content-area { display: flex; gap: 1.5rem; align-items: flex-start; }
+.sidebar {
+    width: 240px; background: var(--dark); color: white; flex-shrink: 0;
+    border-radius: 10px; position: sticky; top: 1rem; overflow: hidden;
+    max-height: calc(100vh - 2rem); overflow-y: auto;
+}
+/* FIX 2026-04-18: selectores sin 'nav' para coincidir con el HTML real generado */
+.sidebar { padding: .5rem 0; }
+/* Pattern moderno cat-name + cat-toggle (REGLA 30b) */
+.sidebar .cat-item { border-top: 1px solid rgba(255,255,255,0.04); }
+.sidebar .cat-row {
+    display: flex; justify-content: space-between; align-items: center;
+    padding: .65rem 1rem; color: rgba(255,255,255,0.85); font-size: .85rem; font-weight: 500;
+    transition: background .15s;
+}
+.sidebar .cat-row:hover { background: rgba(255,255,255,0.08); }
+.sidebar .cat-name { color: inherit; text-decoration: none; flex: 1; }
+.sidebar .cat-name:hover { color: #c9a961; }
+.sidebar .cat-toggle {
+    background: none; border: 0; color: inherit; cursor: pointer;
+    padding: .2rem .4rem; font-size: .65rem; transition: transform .2s;
+}
+.sidebar .cat-toggle[aria-expanded="true"] .cat-arrow { transform: rotate(180deg); display: inline-block; }
+.sidebar .cat-arrow { display: inline-block; transition: transform .2s; }
+.sidebar .cat-sub {
+    background: rgba(0,0,0,0.15); display: flex; flex-direction: column;
+}
+.sidebar .cat-sub[hidden] { display: none; }
+.sidebar .cat-sub a {
+    display: block; padding: .4rem 1rem .4rem 1.75rem; color: rgba(255,255,255,0.7);
+    font-size: .78rem; transition: all .15s; text-decoration: none;
+    border-left: 2px solid transparent;
+}
+.sidebar .cat-sub a:hover { color: #c9a961; background: rgba(201,169,97,0.06); border-left-color: #c9a961; }
+.sidebar .home {
+    display: block; padding: .65rem 1rem; color: rgba(255,255,255,0.9);
+    font-size: .85rem; font-weight: 600;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    text-decoration: none;
+}
+.sidebar nav .home:hover { background: rgba(255,255,255,0.08); }
+
+header { background: var(--dark); color: white; padding: 1.5rem 0 2rem; }
+.header-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; gap: 1rem; flex-wrap: wrap; }
+.header-contact a { color: rgba(255,255,255,0.85); font-size: .9rem; }
+.header-contact a:hover { color: white; }
+header h1 { font-size: clamp(1.5rem, 3vw, 2.2rem); line-height: 1.3; color: white; font-weight: 700; }
+.container { max-width: 1200px; margin: 0 auto; padding: 2rem; }
+main { background: white; border-radius: 12px; padding: 2.5rem; box-shadow: 0 1px 3px rgba(0,0,0,.06); margin-bottom: 2rem; flex: 1; min-width: 0; }
+main section { margin-bottom: 1.5rem; }
+main h2 { color: var(--dark); font-size: 1.35rem; margin: 2rem 0 1rem; padding-bottom: .5rem; border-bottom: 2px solid #e2e8f0; font-weight: 600; }
+main h3 { color: var(--dark); font-size: 1.05rem; margin: 1.5rem 0 .5rem; font-weight: 600; }
+main p { margin-bottom: 1rem; color: #334155; }
+
+table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: .9rem; }
+th, td { padding: .85rem 1rem; text-align: left; border-bottom: 1px solid #e2e8f0; }
+th { background: var(--dark); color: white; font-weight: 600; font-family: var(--font-h); font-size: .85rem; text-transform: uppercase; letter-spacing: .05em; }
+tr:nth-child(even) { background: #f8fafc; }
+
+.normas { background: rgba(0,0,0,0.03); padding: 1rem 1.5rem; border-radius: 8px; border-left: 4px solid var(--primary); margin: 1.5rem 0; font-size: .9rem; }
+.servicios-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
+.servicio { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 1.25rem; transition: border-color .2s; }
+.servicio:hover { border-color: var(--primary); }
+.servicio h3 { margin: 0 0 .5rem; color: var(--dark); font-size: .95rem; }
+.servicio p { margin: 0; font-size: .9rem; color: #475569; }
+
+details { margin-bottom: .75rem; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden; }
+summary { padding: 1rem 1.25rem; cursor: pointer; font-weight: 500; color: var(--dark); background: #f8fafc; list-style: none; }
+summary::-webkit-details-marker { display: none; }
+summary::before { content: '+ '; color: var(--primary); font-weight: 700; }
+details[open] summary::before { content: '− '; }
+summary:hover { background: rgba(0,0,0,0.02); }
+details p { padding: .75rem 1.25rem; font-size: .9rem; color: #475569; margin: 0; }
+
+.cta { background: var(--dark); color: white; padding: 2rem; border-radius: 10px; margin: 2rem 0; text-align: center; }
+.cta h3 { font-size: 1.3rem; font-weight: 700; margin-bottom: 1.25rem; color: white; border: none; padding: 0; }
+.cta .whatsapp-btn {
+    display: inline-block; background: #25D366; color: white;
+    padding: .75rem 1.75rem; border-radius: 8px; font-weight: 600;
+    margin-bottom: 1.25rem; font-size: 1rem;
+}
+.cta .whatsapp-btn:hover { background: #1eb853; }
+.cta .whatsapp-sub { font-size: .85rem; opacity: .85; margin-bottom: 1rem; }
+.cta .contacto-line { font-size: 1rem; margin: .5rem 0; }
+.cta .contacto-line a { color: white; text-decoration: underline; }
+
+footer { text-align: center; padding: 2rem; font-size: .8rem; color: #94a3b8; background: var(--dark); color: rgba(255,255,255,0.7); }
+footer a { color: rgba(255,255,255,0.85); }
+
+#mapa-ciudad { height: 240px; max-width: 630px; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,.1); }
+
+@media (max-width: 900px) {
+    .sidebar { display: none; }
+    .content-area { flex-direction: column; }
+    .header-top { flex-direction: column; text-align: center; }
+    main { padding: 1.5rem; }
+    .container { padding: 1rem; }
+}
+</style>
+<link rel="manifest" href="/manifest.json"><meta name="theme-color" content="#1F2937"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><style id="post-fixes-v2">
+/* Inline links visibles en prosa */
+p a[href^="/"]:not(.cta-btn):not(.hero-cta):not(.nav-contact-btn){color:var(--accent,#1d4ed8) !important;text-decoration:underline !important;text-decoration-color:rgba(29,78,216,.45);text-underline-offset:2px;font-weight:600}
+p a[href^="/"]:not(.cta-btn):not(.hero-cta):not(.nav-contact-btn):hover{text-decoration-color:currentColor;opacity:.85}
+/* Sidebar hover adaptive */
+aside .cat-name:hover,aside .sb-home:hover,aside .cat-sub-wrap a:hover,
+aside nav a:hover{color:inherit !important;text-decoration:underline !important;text-underline-offset:3px}
+aside .cat-name,aside .sb-home,aside nav a{color:inherit}
+aside .cat-name:hover,aside .sb-home:hover{background:rgba(127,127,127,.12) !important}
+/* Cat-toggle sin caja */
+.cat-toggle{width:auto !important;min-width:32px;border:none !important;border-left:none !important;background:transparent !important;box-shadow:none !important;padding:.3rem .5rem !important}
+.cat-toggle:hover{background:rgba(127,127,127,.12) !important}
+/* Nav-arrow sin caja */
+.nav-arrow,.nav-arrow:hover,.nav-arrow:focus{background:transparent !important;border:none !important;outline:none !important;padding:0 .15rem !important;color:inherit !important;cursor:pointer !important;box-shadow:none !important}
+/* Navbar compacto */
+.navbar{padding:.65rem 1rem !important}
+.navbar .nav{gap:.55rem !important}
+.nav-item{font-size:.74rem !important;letter-spacing:.01em !important}
+.logo-box,.brand-name,.brand{font-size:.82rem !important}
+/* Layout defensive */
+body{overflow-x:clip;max-width:100vw}
+body>*{max-width:100vw}
+</style>
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <div class="header-top">
+            <div>
+                <div style="display:inline-flex;flex-direction:column;gap:2px;"><span style="font-family:'Playfair Display',sans-serif;font-weight:800;color:#fafafa;letter-spacing:-0.02em;line-height:1;font-size:24px;">Cascavel</span><div style="height:3px;width:60%;background:#D4A017;border-radius:2px;"></div></div>
+                <div style="color:rgba(255,255,255,0.65);font-size:.8rem;margin-top:.4rem">Cascavel, Brazil</div>
+            </div>
+            <div class="header-contact">
+                <a href="mailto:contato@geotecnia1.org">contato@geotecnia1.org</a>
+            </div>
+        </div>
+        <nav aria-label="breadcrumb" style="padding:.3rem 0;font-size:.78rem;color:rgba(255,255,255,0.75)"><ol style="list-style:none;display:flex;gap:.35rem;flex-wrap:wrap;padding:0;margin:0"><li><a href="/" style="color:inherit;text-decoration:none">Início</a></li><li>›</li><li>Fundações</li><li>›</li><li aria-current="page" style="color:rgba(255,255,255,0.95)">Projeto de fundações em estacas em Cascavel: critérios técni…</li></ol></nav>
+        <h1>Projeto de fundações em estacas em Cascavel: critérios técnicos e investigação geotécnica</h1>
+    </div>
+</header>
+
+<div class="container">
+    <div class="content-area">
+        <aside class="sidebar">
+            <nav><a href="index.html" class="home">Início</a><div class="cat-item" data-cat="investigacao"><div class="cat-row"><a href="/investigacao/" class="cat-name">Exploração</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Exploração"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/ensaio-cpt/">Ensaio CPT (Cone Penetration Test)</a></div></div><div class="cat-item" data-cat="lab-in-situ"><div class="cat-row"><a href="/lab-in-situ/" class="cat-name">Ensaios in situ</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Ensaios in situ"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/densidade-cone-areia/">Ensaio de densidade in situ (método do cone de areia)</a></div></div><div class="cat-item" data-cat="laboratorio"><div class="cat-row"><a href="/laboratorio/" class="cat-name">Laboratório</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Laboratório"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/limites-atterberg/">Limites de Atterberg</a></div></div><div class="cat-item" data-cat="fundacoes"><div class="cat-row"><a href="/fundacoes/" class="cat-name">Fundações</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Fundações"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/estacas/">Projeto de fundações em estacas</a></div></div><div class="cat-item" data-cat="taludes"><div class="cat-row"><a href="/taludes/" class="cat-name">Taludes e muros</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Taludes e muros"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/estabilidade-taludes/">Análise de estabilidade de taludes</a><a href="/ancoragens/">Projeto de ancoragens ativas/passivas</a><a href="/muros-contencao/">Projeto de muros de contenção</a></div></div><div class="cat-item" data-cat="melhoramento"><div class="cat-row"><a href="/melhoramento/" class="cat-name">Melhoramento</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Melhoramento"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/colunas-brita/">Projeto de colunas de brita (stone columns)</a><a href="/vibrocompactacao/">Projeto de vibrocompactação</a></div></div><div class="cat-item" data-cat="sismica"><div class="cat-row"><a href="/sismica/" class="cat-name">Sísmica</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Sísmica"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/liquefacao/">Análise de liquefação de solos</a><a href="/microzoneamento-sismico/">Microzoneamento sísmico</a><a href="/isolamento-sismico/">Projeto de isolamento sísmico de base</a></div></div><div class="cat-item" data-cat="geotecnia-viaria"><div class="cat-row"><a href="/geotecnia-viaria/" class="cat-name">Geotecnia viária</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Geotecnia viária"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/cbr-viario/">Estudo CBR para projeto viário</a><a href="/pavimento-flexivel/">Projeto de pavimento flexível</a></div></div><div class="cat-item" data-cat="escavacoes"><div class="cat-row"><a href="/escavacoes/" class="cat-name">Escavações subterrâneas</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Escavações subterrâneas"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/tuneis-solo-mole/">Análise geotécnica para túneis em solo mole</a><a href="/monitoramento-escavacoes/">Monitoramento geotécnico de escavações</a><a href="/escavacoes-profundas/">Projeto geotécnico de escavações profundas</a></div></div></nav>
+        </aside>
+        <main>
+            <section><p>Quem constrói no bairro Country encontra um perfil de solo completamente diferente de quem projeta na região do Floresta. Em Cascavel, a variação litológica é acentuada: enquanto algumas quadras assentam sobre o basalto fraturado da Formação Serra Geral a poucos metros de profundidade, outras zonas urbanas apresentam espessas camadas de solo residual argiloso que exigem soluções em estacas de maior comprimento. Ignorar essa heterogeneidade é a origem de patologias estruturais que observamos em vistorias técnicas. Para definir o tipo de estaca e a cota de assentamento, a campanha de <a data-interlink="1" href="/sondagens-spt/">sondagens SPT</a> deve ser planejada com malha suficiente para capturar a variabilidade lateral do substrato rochoso. Complementamos a caracterização com <a href="/granulometria/">ensaios de granulometria</a> para classificar o solo superficial e verificar a estabilidade do fuste durante a perfuração.</p></section>
+
+            <blockquote style="border-left:4px solid #D4A017;background:rgba(0,0,0,.03);padding:1rem 1.25rem;margin:1.5rem 0 1.5rem 1rem;font-style:italic;color:#333;font-size:1.05rem;line-height:1.55;border-radius:0 6px 6px 0">A cravação ou escavação de estacas em Cascavel deve considerar a transição abrupta entre solo residual e rocha basáltica, comum na geologia do terceiro planalto paranaense.</blockquote>
+
+            
+
+            <section>
+                <h2>Detalhes técnicos do serviço em Cascavel</h2>
+                <div>O crescimento acelerado de Cascavel a partir dos anos 1970, impulsionado pelo agronegócio e pela instalação de cooperativas, ocupou vales antes destinados à drenagem natural. Muitos bairros consolidados, como o Pacaembu e o Alto Alegre, foram erguidos sobre aterros não controlados ou solos coluvionares que migraram das encostas basálticas. Esse histórico de urbanização sobre terrenos de comportamento geotécnico imprevisível torna o projeto de fundações em estacas uma etapa de engenharia que não pode ser simplificada com fórmulas empíricas genéricas. A campanha de investigação deve incluir a abertura de <a href="/pocos-inspecao/">poços de inspeção</a> para coleta de amostras indeformadas nos horizontes de aterro, permitindo avaliar a presença de matéria orgânica ou entulho. Nos casos em que o atrito lateral é determinante, realizamos o <a href="/limites-atterberg/">ensaio de limite de Atterberg</a> para prever o comportamento plástico do solo em contato com o concreto, ajustando o método executivo à sensibilidade do material.</div>
+            </section>
+
+            <figure style="margin:2rem auto;text-align:center;max-width:60%"><img src="/img/pilotes-3.webp" alt="Projeto de fundações em estacas em Cascavel: critérios técnicos e investigação geotécnica" width="600" height="300" loading="lazy" decoding="async" style="width:100%;max-height:160px;object-fit:cover;border-radius:8px"><figcaption style="font-size:.78rem;color:#64748b;margin-top:.4rem">Projeto de fundações em estacas em Cascavel: critérios técnicos e investigação geotécnica</figcaption></figure>
+
+            <div style="max-width:700px;margin:1.5rem auto;border-left:4px solid #D4A017;border-radius:6px;overflow:hidden;background:#FFF;box-shadow:0 1px 3px rgba(0,0,0,.05)"><table style="width:100%;border-collapse:collapse;font-size:.92rem"><thead><tr style="background:#D4A017;color:#FFF"><th style="padding:.75rem 1rem;text-align:left;font-weight:600">Parâmetro</th><th style="padding:.75rem 1rem;text-align:left;font-weight:600">Valor típico</th></tr></thead><tbody><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Norma de projeto</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">ABNT NBR 6122:2019</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Norma de execução</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">ABNT NBR 6120:2019 (cargas)</td></tr><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Profundidade média de investigação</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">8 a 25 m (variável conforme carga)</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Tipos de estaca comuns na região</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">Hélice contínua, escavada, pré-moldada e raiz</td></tr><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Fator de segurança global mínimo</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">2,0 (prova de carga estática)</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Diâmetro típico de estacas moldadas in loco</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">30 a 80 cm</td></tr><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Método de dimensionamento</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">Decourt-Quaresma e Aoki-Velloso (solos), Cabral (rocha)</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Controle de execução</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">Diagrama de cravação e prova de carga dinâmica</td></tr></tbody></table></div>
+
+            
+
+            <section>
+                <h2>Condições geotécnicas locais em Cascavel</h2>
+                <p>O basalto da Formação Serra Geral, predominante no subsolo de Cascavel, apresenta um comportamento enganoso: a rocha sã tem altíssima resistência, mas o topo rochoso costuma estar coberto por um manto de alteração argiloso e blocos soltos. Perfurar esse contato sem critério pode gerar desvios de perfuração ou falsa impressão de ponta em rocha. Outro ponto crítico é a presença de solos colapsíveis em algumas microbacias da cidade, que perdem estrutura quando saturados. Uma fundação em estacas mal dimensionada nesse cenário transfere tensões que o solo não suporta em condições de chuva prolongada, provocando recalques diferenciais severos. O lençol freático elevado nas áreas próximas ao Lago Municipal também exige atenção: a escavação de estacas abaixo do NA sem revestimento adequado pode desencadear erosão interna e carreamento de finos, comprometendo o atrito lateral previsto em projeto e exigindo monitoramento constante durante a concretagem submersa.</p>
+            </section>
+
+            
+    <section class="block mid-cta" style="padding:2rem 0">
+      <div style="max-width:720px;margin:0 auto;background:linear-gradient(135deg,#16A34A15,#16A34A08);border-left:4px solid #16A34A;padding:1.6rem 1.8rem;border-radius:8px;text-align:center">
+        <h3 style="margin:0 0 .4rem;font-size:1.15rem;color:#1E293B;text-align:center">Precisa de uma avaliação geotécnica?</h3>
+        <p style="margin:0 0 1rem;color:#64748B;font-size:.92rem;text-align:center">Resposta em menos de 24h.</p>
+        <div style="margin:.4rem 0 0;text-align:center"><a href="mailto:contato@geotecnia1.org" style="display:inline-block;background:#16A34A;color:#FFF !important;padding:1rem 2rem;border-radius:8px;text-decoration:none;font-weight:800;font-size:1.05rem;box-shadow:0 4px 12px rgba(0,0,0,.15)">Email: contato@geotecnia1.org</a></div>
+      </div>
+    </section>
+
+            <div class="normas">
+                <strong>Normas aplicáveis:</strong> ABNT NBR 6122:2019 – Projeto e execução de fundações, ABNT NBR 6120:2019 – Ações para cálculo estrutural, ABNT NBR 8036 – Programação de sondagens, ABNT NBR 13208 – Estacas escavadas, ABNT NBR 12131 – Estacas – Prova de carga estática
+            </div>
+
+            <section>
+                <h2>Nossos serviços</h2>
+                <p>O dimensionamento de fundações profundas em Cascavel exige uma sequência de investigações e verificações que integramos em nosso escopo técnico:</p>
+                <style>.servicios-grid{display:flex;flex-wrap:wrap;gap:1rem;justify-content:flex-start}.servicios-grid .servicio{flex:0 0 calc(50% - .5rem);min-width:260px;padding:1rem 1.2rem;border:1px solid #E5E7EB;border-radius:10px;background:#FFFFFF;position:relative;transition:border-color .18s,box-shadow .18s,transform .18s}.servicios-grid a.servicio-link{display:block;text-decoration:none;color:inherit;cursor:pointer}.servicios-grid a.servicio-link:hover{border-color:#D4A017;box-shadow:0 4px 14px rgba(0,0,0,.08);transform:translateY(-2px)}.servicios-grid a.servicio-link:hover h3{color:#D4A017}.servicio-arrow{position:absolute;right:1rem;bottom:.8rem;color:#D4A017;font-weight:700;opacity:.55;transition:transform .18s,opacity .18s}.servicios-grid a.servicio-link:hover .servicio-arrow{transform:translateX(4px);opacity:1}</style><div class="servicios-grid"><div class="servicio"><h3>Campanha de sondagens e ensaios de campo</h3><p>Execução de sondagens SPT com medição de torque a cada metro, ensaios CPT para perfil contínuo de resistência de ponta e atrito lateral, e coleta de amostras indeformadas nos horizontes de interesse. Planejamos a malha conforme NBR 8036, cobrindo toda a projeção da edificação para não extrapolar bulbos de tensão sem informação.</p></div><div class="servicio"><h3>Dimensionamento e verificação de capacidade de carga</h3><p>Aplicação dos métodos semiempíricos consagrados (Decourt-Quaresma e Aoki-Velloso) com parâmetros calibrados para o solo residual basáltico da região. Para estacas com ponta em rocha, utilizamos o critério de Cabral (1986) ajustado à resistência à compressão simples do testemunho de sondagem rotativa. Inclui verificação de recalques e efeito de grupo.</p></div></div>
+            </section>
+
+            <section>
+                <h2>Perguntas frequentes</h2>
+                <details><summary>Qual o custo médio do projeto de fundações em estacas em Cascavel?</summary><p>O valor gira em torno de $100.000, dependendo da complexidade da obra, do número de furos de sondagem exigidos pela NBR 8036 e da necessidade de ensaios complementares como prova de carga estática.</p></details><details><summary>Como a geologia de Cascavel influencia a escolha do tipo de estaca?</summary><p>A predominância de basalto da Formação Serra Geral a profundidades variáveis entre 8 e 20 metros torna as estacas de ponta em rocha muito eficientes. Contudo, a camada de solo residual argiloso sobre o topo rochoso exige estacas com boa capacidade de carga por atrito lateral, como a hélice contínua.</p></details><details><summary>É obrigatório realizar prova de carga em estacas na região?</summary><p>Sim, a NBR 6122:2019 exige prova de carga estática ou dinâmica em um percentual mínimo de estacas. Em Cascavel, recomendamos prova de carga estática sempre que a obra ultrapassar 400 m² ou quando o topo rochoso for muito irregular, para validar o coeficiente de segurança adotado.</p></details><details><summary>Qual a vida útil esperada para fundações em estacas nesse tipo de solo?</summary><p>Com concreto adequado à classe de agressividade ambiental (geralmente II em Cascavel, exceto em zonas industriais), cobrimento de armadura conforme NBR 6118 e execução com integridade verificada, a vida útil de projeto supera 50 anos sem intervenção.</p></details>
+            </section>
+
+            <section>
+                <h2>Cobertura em Cascavel</h2>
+                <link rel="stylesheet" href="/css/leaflet.css"/>
+                <div id="mapa-ciudad"></div>
+                <script src="/js/leaflet.js"></script>
+                <script>
+                    var map = L.map('mapa-ciudad').setView([-24.9554996,-53.4560544], 12);
+                    L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}@2x.png',{attribution:'&copy; OSM &copy; CARTO',subdomains:'abcd',maxZoom:19}).addTo(map);L.marker([-24.9554996,-53.4560544],{icon:L.divIcon({html:'<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 36\" width=\"24\" height=\"36\"><path d=\"M12 0C5.4 0 0 5.4 0 12c0 9 12 24 12 24s12-15 12-24c0-6.6-5.4-12-12-12z\" fill=\"#E11D48\" stroke=\"#FFF\" stroke-width=\"1.5\"/><circle cx=\"12\" cy=\"12\" r=\"4\" fill=\"#FFF\"/></svg>',className:'',iconSize:[24,36],iconAnchor:[12,36]})}).addTo(map);
+                    L.circle([-24.9554996,-53.4560544],{radius:3000,color:'#D4A017',fillColor:'#EAB308',fillOpacity:0.18,weight:2}).addTo(map).bindPopup('Coverage area — Cascavel');
+                </script>
+            </section>
+        </main>
+    </div>
+</div>
+
+<footer style="background:#0C1B33;color:rgba(255,255,255,.85);padding:2rem 1.5rem;text-align:center;font-size:.92rem">Cascavel, Brazil · <a href="mailto:contato@geotecnia1.org" style="color:#FFF;text-decoration:underline">contato@geotecnia1.org</a><div data-authority-refs class="authority-refs" style="text-align:center;font-size:.8rem;padding:.5rem 0;opacity:.6"><strong>Referências:</strong> <a href="https://www.abnt.org.br/" rel="nofollow noopener" target="_blank">Normas ABNT</a> · <a href="https://eurocodes.jrc.ec.europa.eu/showpage.php?id=132" rel="nofollow noopener" target="_blank">Eurocódigo 7</a> · <a href="https://www.iso.org/committee/49802.html" rel="nofollow noopener" target="_blank">ISO Geotécnica</a></div><div class="updated-info" data-updated="2026-05-14" style="text-align:center;font-size:.85rem;opacity:.7;padding:.5rem 0">Última atualização: 2026-05-14</div></footer>
+
+<script>
+// Sidebar cat-toggle: click expande/contrae cat-sub (REGLA 30b)
+document.addEventListener('click', function(e) {
+    var btn = e.target.closest('.cat-toggle');
+    if (!btn) return;
+    e.preventDefault();
+    var item = btn.closest('.cat-item');
+    if (!item) return;
+    var sub = item.querySelector('.cat-sub');
+    if (!sub) return;
+    var open = btn.getAttribute('aria-expanded') === 'true';
+    btn.setAttribute('aria-expanded', open ? 'false' : 'true');
+    if (open) {
+        sub.setAttribute('hidden', '');
+    } else {
+        sub.removeAttribute('hidden');
+    }
+});
+</script>
+</body>
+</html>
