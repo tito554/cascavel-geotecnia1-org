@@ -1,251 +1,159 @@
-<!DOCTYPE html>
-<html lang="pt">
-<head><link rel="icon" type="image/svg+xml" href="/img/favicon.svg"><link rel="apple-touch-icon" href="/img/favicon.svg">
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Microzoneamento Sísmico em Cascavel PR: Caracterização Dinâmica de Perfis</title>
-<meta name="description" content="Microzoneamento sísmico em Cascavel PR com métodos geofísicos integrados. Caracterização de Vs30 e períodos fundamentais para classificação de sítio conforme">
-<link rel="canonical" href="https://cascavel.geotecnia1.org/microzoneamento-sismico/">
-<!-- Open Graph -->
-<meta property="og:type" content="website">
-<meta property="og:title" content="Microzoneamento Sísmico em Cascavel PR: Caracterização Dinâmica de Perfis">
-<meta property="og:description" content="Microzoneamento sísmico em Cascavel PR com métodos geofísicos integrados. Caracterização de Vs30 e períodos fundamentais para classificação de sítio conforme...">
-<meta property="og:url" content="https://cascavel.geotecnia1.org/microzoneamento-sismico/">
-<meta property="og:site_name" content="Geotecnia1">
-<meta property="og:image" content="https://cascavel.geotecnia1.org/img/microzonificacion-sismica-4.webp">
-<meta property="og:locale" content="pt_BR">
-<!-- Twitter -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Microzoneamento Sísmico em Cascavel PR: Caracterização Dinâmica de Perfis">
-<meta name="twitter:description" content="Microzoneamento sísmico em Cascavel PR com métodos geofísicos integrados. Caracterização de Vs30 e períodos fundamentais para classificação de sítio conforme...">
-<script type="application/ld+json">{"@context":"https://schema.org","itemListElement":[{"@type":"ListItem","position":1,"name":"Início","item":"/"},{"@type":"ListItem","position":2,"name":"Microzoneamento Sísmico em Cascavel PR: Caracterização Dinâmica de Perfis"}],"@type":"BreadcrumbList"}</script>
-<script type="application/ld+json">{"@context":"https://schema.org","description":"Microzoneamento sísmico em Cascavel PR com métodos geofísicos integrados. Caracterização de Vs30 e períodos fundamentais para classificação de sítio conforme NBR 15421.","provider":{"email":"contato@geotecnia1.org","@type":"LocalBusiness","telephone":"","name":"Geotecnia1","address":{"@type":"PostalAddress","addressLocality":"Cascavel","addressCountry":"BR"}},"areaServed":{"@type":"City","name":"Cascavel"},"name":"Microzoneamento Sísmico em Cascavel PR: Caracterização Dinâmica de Perfis","@type":"Service","url":"https://cascavel.geotecnia1.org/microzoneamento-sismico"}</script>
-<script type="application/ld+json">{"@context":"https://schema.org","mainEntity":[{"@type":"Question","acceptedAnswer":{"@type":"Answer","text":""},"name":"Qual o custo típico de um microzoneamento sísmico em Cascavel?"},{"@type":"Question","acceptedAnswer":{"@type":"Answer","text":"A norma brasileira exige a classificação sísmica para estruturas do Grupo Sísmico 3 (edificações essenciais como hospitais, quartéis de bombeiros, centros de emergência) e para estruturas do Grupo 2 com altura superior a 30 metros ou localizadas em zonas sísmicas 1, 2 ou 3 do mapa de ameaça."},"name":"Em que tipo de obra a NBR 15421 exige classificação sísmica do terreno?"},{"@type":"Question","acceptedAnswer":{"@type":"Answer","text":"Não necessariamente. Embora o basalto são tenha velocidades de onda S superiores a 760 m/s, a presença de camadas de solo laterítico e saprolito acima da rocha reduz o Vs30 do perfil completo. Só a medição geofísica direta com MASW ou downhole pode confirmar a classe de sítio real."},"name":"O basalto raso de Cascavel garante um sítio classe B?"}],"@type":"FAQPage"}</script>
-<style>
-
-@media (max-width: 900px) {
-    .sidebar { display: none; }
-    .content-area { flex-direction: column; }
-    .container { padding: 1rem; }
-    .header-top { flex-direction: column; text-align: center; }
-    main { padding: 1.5rem; }
+<!DOCTYPE html><html lang="pt"><head><link rel="icon" type="image/svg+xml" href="/img/favicon.svg"><link rel="icon" type="image/png" sizes="96x96" href="/favicon.png"><link rel="apple-touch-icon" href="/img/favicon.svg"><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Microzoneamento Sísmico em Cascavel: Caracterização de Efeitos de Sítio com Métodos Geofísicos</title><meta name="description" content="Caracterização de efeitos de sítio em Cascavel com MASW, sondagens e perfis de Vs30. Laboratório acreditado ISO"><link rel="canonical" href="https://cascavel.geotecnia1.org/microzoneamento-sismico/"><meta property="og:type" content="website"><meta property="og:title" content="Microzoneamento Sísmico em Cascavel: Caracterização de Efeitos de Sítio com Métodos Geofísicos"><meta property="og:description" content="Caracterização de efeitos de sítio em Cascavel com MASW, sondagens e perfis de Vs30. Laboratório acreditado ISO"><meta property="og:url" content="https://cascavel.geotecnia1.org/microzoneamento-sismico/"><meta property="og:site_name" content="Geotecnia1"><meta property="og:image" content="https://cascavel.geotecnia1.org/img/microzonificacion-sismica-4.webp"><meta property="og:locale" content="pt_BR"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Microzoneamento Sísmico em Cascavel: Caracterização de Efeitos de Sítio com Métodos Geofísicos"><meta name="twitter:description" content="Caracterização de efeitos de sítio em Cascavel com MASW, sondagens e perfis de Vs30. Laboratório acreditado ISO 17025, análise conforme NBR 15421 e NEHRP para projetos resilientes.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Início", "item": "/"}, {"@type": "ListItem", "position": 2, "name": "Microzoneamento Sísmico em Cascavel: Caracterização de Efeitos de Sítio com Métodos Geofísicos"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Service", "name": "Microzoneamento Sísmico em Cascavel: Caracterização de Efeitos de Sítio com Métodos Geofísicos", "description": "Caracterização de efeitos de sítio em Cascavel com MASW, sondagens e perfis de Vs30. Laboratório acreditado ISO 17025, análise conforme NBR 15421 e NEHRP para projetos resilientes.", "areaServed": {"@type": "City", "name": "Cascavel"}, "provider": {"@type": "LocalBusiness", "name": "Geotecnia1", "email": "contato@geotecnia1.org", "telephone": "", "address": {"@type": "PostalAddress", "addressLocality": "Cascavel", "addressCountry": "BR"}}, "url": "https://cascavel.geotecnia1.org/microzoneamento-sismico/"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Cascavel tem risco sísmico real ou é só exigência normativa?", "acceptedAnswer": {"@type": "Answer", "text": "A região Sul do Brasil registra sismos de baixa a moderada magnitude, com epicentros no interior do Paraná e estados vizinhos. A normativa NBR 15421:2006 exige verificação sísmica para estruturas essenciais e de grande porte. O microzoneamento não parte de sismos frequentes, mas da amplificação do movimento em solos de alteração — e em Cascavel essa amplificação é real e medida. Um perfil de 25 metros de solo sobre basalto pode amplificar acelerações em 2 a 3 vezes em relação ao esperado em rocha."}}, {"@type": "Question", "name": "Qual o custo médio de um microzoneamento sísmico para um loteamento em Cascavel?", "acceptedAnswer": {"@type": "Answer", "text": "Um estudo de microzoneamento para um loteamento de 20 a 50 hectares em Cascavel fica na faixa de $100.000, considerando malha de pontos MASW, sondagens de calibração, ensaios triaxiais cíclicos e emissão do relatório com espectros de projeto. Esse valor pode variar conforme a densidade da malha exigida, acessibilidade do terreno e número de unidades geotécnicas identificadas."}}, {"@type": "Question", "name": "O microzoneamento sísmico substitui a sondagem SPT de fundação?", "acceptedAnswer": {"@type": "Answer", "text": "Não substitui, complementa. O SPT fornece o índice de resistência à penetração e o nível d'água, essenciais para dimensionamento de fundações. O microzoneamento sísmico agrega a velocidade de onda cisalhante e o período fundamental do terreno, parâmetros que o SPT não mede. A NBR 15421 exige os dois conjuntos de dados para definir a ação sísmica de projeto."}}]}</script>
+<style>/*afx*/@media (max-width: 900px) {
+.sidebar { display: none; }
+.content-area { flex-direction: column; }
+.header-top { flex-direction: column; text-align: center; }
+main { padding: 1.5rem; }
+.container { padding: 1rem; }
 }
-th, td { padding: .85rem 1rem; text-align: left; border-bottom: 1px solid #e2e8f0; }
-.sidebar nav .home:hover { background: rgba(255,255,255,0.08); }
-th { background: var(--dark); color: white; font-weight: 600; font-family: var(--font-h); font-size: .85rem; text-transform: uppercase; letter-spacing: .05em; }
-.servicios-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
-.servicio:hover { border-color: var(--primary); }
-h1, h2, h3, h4 { font-family: var(--font-h); }
-.sidebar .cat-sub a {
-    display: block; padding: .4rem 1rem .4rem 1.75rem; color: rgba(255,255,255,0.7);
-    font-size: .78rem; transition: all .15s; text-decoration: none;
-    border-left: 2px solid transparent;
-}
-.container { max-width: 1200px; margin: 0 auto; padding: 2rem; }
-.sidebar .cat-toggle[aria-expanded="true"] .cat-arrow { transform: rotate(180deg); display: inline-block; }
-details[open] summary::before { content: '− '; }
-.cta h3 { font-size: 1.3rem; font-weight: 700; margin-bottom: 1.25rem; color: white; border: none; padding: 0; }
-main h3 { color: var(--dark); font-size: 1.05rem; margin: 1.5rem 0 .5rem; font-weight: 600; }
-:root {
-    --primary: #D4A017;
-    --accent: #EAB308;
-    --dark: #0C1B33;
-    --bg: #FAF9F6;
-    --text: #1E293B;
-    --font-h: 'Playfair Display', 'Segoe UI', sans-serif;
-    --font-b: 'Lora', 'Segoe UI', sans-serif;
-}
-.header-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; gap: 1rem; flex-wrap: wrap; }
-main p { margin-bottom: 1rem; color: #334155; }
-    
-a { color: var(--primary); text-decoration: none; }
-.cta .whatsapp-sub { font-size: .85rem; opacity: .85; margin-bottom: 1rem; }
-
-.cta { background: var(--dark); color: white; padding: 2rem; border-radius: 10px; margin: 2rem 0; text-align: center; }
-
-header { background: var(--dark); color: white; padding: 1.5rem 0 2rem; }
-.header-contact a:hover { color: white; }
-/* FIX 2026-04-18: selectores sin 'nav' para coincidir con el HTML real generado */
-.sidebar { padding: .5rem 0; }
-summary::-webkit-details-marker { display: none; }
-.sidebar .cat-name { color: inherit; text-decoration: none; flex: 1; }
-summary::before { content: '+ '; color: var(--primary); font-weight: 700; }
-
-.content-area { display: flex; gap: 1.5rem; align-items: flex-start; }
-details p { padding: .75rem 1.25rem; font-size: .9rem; color: #475569; margin: 0; }
-.servicio p { margin: 0; font-size: .9rem; color: #475569; }
-main h2 { color: var(--dark); font-size: 1.35rem; margin: 2rem 0 1rem; padding-bottom: .5rem; border-bottom: 2px solid #e2e8f0; font-weight: 600; }
-
-.normas { background: rgba(0,0,0,0.03); padding: 1rem 1.5rem; border-radius: 8px; border-left: 4px solid var(--primary); margin: 1.5rem 0; font-size: .9rem; }
-
-details { margin-bottom: .75rem; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden; }
-main section { margin-bottom: 1.5rem; }
-    
-.servicio { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 1.25rem; transition: border-color .2s; }
-main { background: white; border-radius: 12px; padding: 2.5rem; box-shadow: 0 1px 3px rgba(0,0,0,.06); margin-bottom: 2rem; flex: 1; min-width: 0; }
-.sidebar {
-    width: 240px; background: var(--dark); color: white; flex-shrink: 0;
-    border-radius: 10px; position: sticky; top: 1rem; overflow: hidden;
-    max-height: calc(100vh - 2rem); overflow-y: auto;
-}
-
-#mapa-ciudad { height: 240px; max-width: 630px; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,.1); }
-.cta .contacto-line a { color: white; text-decoration: underline; }
+footer a { color: rgba(255,255,255,0.85); }
 summary { padding: 1rem 1.25rem; cursor: pointer; font-weight: 500; color: var(--dark); background: #f8fafc; list-style: none; }
-.sidebar .cat-sub[hidden] { display: none; }
-.sidebar .home {
-    display: block; padding: .65rem 1rem; color: rgba(255,255,255,0.9);
-    font-size: .85rem; font-weight: 600;
-    border-bottom: 1px solid rgba(255,255,255,0.1);
-    text-decoration: none;
-}
-.sidebar .cat-row:hover { background: rgba(255,255,255,0.08); }
+header { background: var(--dark); color: white; padding: 1.5rem 0 2rem; }
 .sidebar .cat-row {
-    display: flex; justify-content: space-between; align-items: center;
-    padding: .65rem 1rem; color: rgba(255,255,255,0.85); font-size: .85rem; font-weight: 500;
-    transition: background .15s;
+display: flex; justify-content: space-between; align-items: center;
+padding: .65rem 1rem; color: rgba(255,255,255,0.85); font-size: .85rem; font-weight: 500;
+transition: background .15s;
 }
 .sidebar .cat-sub a:hover { color: #c9a961; background: rgba(201,169,97,0.06); border-left-color: #c9a961; }
-.sidebar .cat-arrow { display: inline-block; transition: transform .2s; }
-    
-.servicio h3 { margin: 0 0 .5rem; color: var(--dark); font-size: .95rem; }
-footer a { color: rgba(255,255,255,0.85); }
-
-footer { text-align: center; padding: 2rem; font-size: .8rem; color: #94a3b8; background: var(--dark); color: rgba(255,255,255,0.7); }
-/* Pattern moderno cat-name + cat-toggle (REGLA 30b) */
-.sidebar .cat-item { border-top: 1px solid rgba(255,255,255,0.04); }
-    
-.sidebar .cat-name:hover { color: #c9a961; }
-.cta .whatsapp-btn {
-    display: inline-block; background: #25D366; color: white;
-    padding: .75rem 1.75rem; border-radius: 8px; font-weight: 600;
-    margin-bottom: 1.25rem; font-size: 1rem;
-}
-.header-contact a { color: rgba(255,255,255,0.85); font-size: .9rem; }
-* { margin:0; padding:0; box-sizing:border-box; }
-
-table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: .9rem; }
 .sidebar .cat-sub {
-    background: rgba(0,0,0,0.15); display: flex; flex-direction: column;
+background: rgba(0,0,0,0.15); display: flex; flex-direction: column;
 }
-header h1 { font-size: clamp(1.5rem, 3vw, 2.2rem); line-height: 1.3; color: white; font-weight: 700; }
+.cta .whatsapp-btn {
+display: inline-block; background: #25D366; color: white;
+padding: .75rem 1.75rem; border-radius: 8px; font-weight: 600;
+margin-bottom: 1.25rem; font-size: 1rem;
+}
+th { background: var(--dark); color: white; font-weight: 600; font-family: var(--font-h); font-size: .85rem; text-transform: uppercase; letter-spacing: .05em; }
+.servicio { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 1.25rem; transition: border-color .2s; }
+.header-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; gap: 1rem; flex-wrap: wrap; }
+main h2 { color: var(--dark); font-size: 1.35rem; margin: 2rem 0 1rem; padding-bottom: .5rem; border-bottom: 2px solid #e2e8f0; font-weight: 600; }
+summary::before { content: '+ '; color: var(--primary); font-weight: 700; }
+.sidebar .cat-sub a {
+display: block; padding: .4rem 1rem .4rem 1.75rem; color: rgba(255,255,255,0.7);
+font-size: .78rem; transition: all .15s; text-decoration: none;
+border-left: 2px solid transparent;
+}
+a { color: var(--primary); text-decoration: none; }
+/* FIX 2026-04-18: selectores sin 'nav' para coincidir con el HTML real generado */
+.sidebar { padding: .5rem 0; }
+.cta { background: var(--dark); color: white; padding: 2rem; border-radius: 10px; margin: 2rem 0; text-align: center; }
+main { background: white; border-radius: 12px; padding: 2.5rem; box-shadow: 0 1px 3px rgba(0,0,0,.06); margin-bottom: 2rem; flex: 1; min-width: 0; }
 .cta .contacto-line { font-size: 1rem; margin: .5rem 0; }
-body { font-family: var(--font-b); color: var(--text); background: var(--bg); line-height: 1.75; font-size: 15px; }
-.sidebar .cat-toggle {
-    background: none; border: 0; color: inherit; cursor: pointer;
-    padding: .2rem .4rem; font-size: .65rem; transition: transform .2s;
-}
-.cta .whatsapp-btn:hover { background: #1eb853; }
-summary:hover { background: rgba(0,0,0,0.02); }
+#mapa-ciudad { height: 240px; max-width: 630px; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,.1); }
+.sidebar .cat-row:hover { background: rgba(255,255,255,0.08); }
+.sidebar .cat-toggle[aria-expanded="true"] .cat-arrow { transform: rotate(180deg); display: inline-block; }
+details { margin-bottom: .75rem; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden; }
 tr:nth-child(even) { background: #f8fafc; }
+.header-contact a { color: rgba(255,255,255,0.85); font-size: .9rem; }
+main h3 { color: var(--dark); font-size: 1.05rem; margin: 1.5rem 0 .5rem; font-weight: 600; }
+.servicios-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
+.cta .whatsapp-sub { font-size: .85rem; opacity: .85; margin-bottom: 1rem; }
+.cta h3 { font-size: 1.3rem; font-weight: 700; margin-bottom: 1.25rem; color: white; border: none; padding: 0; }
+.header-contact a:hover { color: white; }
+.sidebar {
+width: 240px; background: var(--dark); color: white; flex-shrink: 0;
+border-radius: 10px; position: sticky; top: 1rem; overflow: hidden;
+max-height: calc(100vh - 2rem); overflow-y: auto;
+}
+.servicio h3 { margin: 0 0 .5rem; color: var(--dark); font-size: .95rem; }
+.content-area { display: flex; gap: 1.5rem; align-items: flex-start; }
+.sidebar .home {
+display: block; padding: .65rem 1rem; color: rgba(255,255,255,0.9);
+font-size: .85rem; font-weight: 600;
+border-bottom: 1px solid rgba(255,255,255,0.1);
+text-decoration: none;
+}
+main p { margin-bottom: 1rem; color: #334155; }
+summary:hover { background: rgba(0,0,0,0.02); }
+.sidebar .cat-name:hover { color: #c9a961; }
+.cta .contacto-line a { color: white; text-decoration: underline; }
+.sidebar nav .home:hover { background: rgba(255,255,255,0.08); }
+footer { text-align: center; padding: 2rem; font-size: .8rem; color: #94a3b8; background: var(--dark); color: rgba(255,255,255,0.7); }
+header h1 { font-size: clamp(1.5rem, 3vw, 2.2rem); line-height: 1.3; color: white; font-weight: 700; }
+summary::-webkit-details-marker { display: none; }
+.sidebar .cat-sub[hidden] { display: none; }
+.servicio p { margin: 0; font-size: .9rem; color: #475569; }
+.cta .whatsapp-btn:hover { background: #1eb853; }
+.normas { background: rgba(0,0,0,0.03); padding: 1rem 1.5rem; border-radius: 8px; border-left: 4px solid var(--primary); margin: 1.5rem 0; font-size: .9rem; }
+details[open] summary::before { content: '− '; }
+* { margin:0; padding:0; box-sizing:border-box; }
+.container { max-width: 1200px; margin: 0 auto; padding: 2rem; }
+h1, h2, h3, h4 { font-family: var(--font-h); }
+th, td { padding: .85rem 1rem; text-align: left; border-bottom: 1px solid #e2e8f0; }
+table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: .9rem; }
+.sidebar .cat-name { color: inherit; text-decoration: none; flex: 1; }
+details p { padding: .75rem 1.25rem; font-size: .9rem; color: #475569; margin: 0; }
+.servicio:hover { border-color: var(--primary); }
+main section { margin-bottom: 1.5rem; }
+.sidebar .cat-toggle {
+background: none; border: 0; color: inherit; cursor: pointer;
+padding: .2rem .4rem; font-size: .65rem; transition: transform .2s;
+}
+.sidebar .cat-arrow { display: inline-block; transition: transform .2s; }
+body { font-family: var(--font-b); color: var(--text); background: var(--bg); line-height: 1.75; font-size: 15px; }
+:root {
+--primary: #D4A017;
+--accent: #EAB308;
+--dark: #0C1B33;
+--bg: #FAF9F6;
+--text: #1E293B;
+--font-h: 'Playfair Display', 'Segoe UI', sans-serif;
+--font-b: 'Lora', 'Segoe UI', sans-serif;
+}
+/* Pattern moderno cat-name + cat-toggle (REGLA 30b) */
+.sidebar .cat-item { border-top: 1px solid rgba(255,255,255,0.04); }</style><link rel="manifest" href="/manifest.json"><meta name="theme-color" content="#1F2937"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><style>/*afx*//* Layout defensive */
+body{overflow-x:clip;max-width:100vw}
+.cat-toggle:hover{background:rgba(127,127,127,.12) !important}
+/* Nav-arrow sin caja */
+.nav-arrow,.nav-arrow:hover,.nav-arrow:focus{background:transparent !important;border:none !important;outline:none !important;padding:0 .15rem !important;color:inherit !important;cursor:pointer !important;box-shadow:none !important}
+/* Navbar compacto */
+.navbar{padding:.65rem 1rem !important}
+aside .cat-name:hover,aside .sb-home:hover{background:rgba(127,127,127,.12) !important}
+.nav-item{font-size:.74rem !important;letter-spacing:.01em !important}
+/* Inline links visibles en prosa */
+p a[href^="/"]:not(.cta-btn):not(.hero-cta):not(.nav-contact-btn){color:var(--accent,#1d4ed8) !important;text-decoration:underline !important;text-decoration-color:rgba(29,78,216,.45);text-underline-offset:2px;font-weight:600}
+aside .cat-name,aside .sb-home,aside nav a{color:inherit}
+body>*{max-width:100vw}
+p a[href^="/"]:not(.cta-btn):not(.hero-cta):not(.nav-contact-btn):hover{text-decoration-color:currentColor;opacity:.85}
+.logo-box,.brand-name,.brand{font-size:.82rem !important}
+/* Cat-toggle sin caja */
+.cat-toggle{width:auto !important;min-width:32px;border:none !important;border-left:none !important;background:transparent !important;box-shadow:none !important;padding:.3rem .5rem !important}
+/* Sidebar hover adaptive */
+aside .cat-name:hover,aside .sb-home:hover,aside .cat-sub-wrap a:hover,
+aside nav a:hover{color:inherit !important;text-decoration:underline !important;text-underline-offset:3px}
+.navbar .nav{gap:.55rem !important}</style><style>/*afx*/.nav-item.has-dd:nth-last-child(-n+5) .dd{left:auto;right:-1rem}</style><script>(function(){var L=0;function load(){if(L)return;L=1;!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq("init","384176023222929");fbq("track","PageView");}["scroll","mousemove","touchstart","keydown","click"].forEach(function(e){window.addEventListener(e,load,{passive:!0,once:!0})});setTimeout(load,4000);})();</script><noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=384176023222929&ev=PageView&noscript=1"/></noscript>  <link rel="preload" as="image" href="/img/microzonificacion-sismica-4.webp" fetchpriority="high">
 
-</style>
-<link rel="manifest" href="/manifest.json"><meta name="theme-color" content="#1F2937"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"></head>
-<body>
-
-<header>
-    <div class="container">
-        <div class="header-top">
-            <div>
-                <div style="display:inline-flex;flex-direction:column;gap:2px;"><span style="font-family:'Playfair Display',sans-serif;font-weight:800;color:#fafafa;letter-spacing:-0.02em;line-height:1;font-size:24px;">Cascavel</span><div style="height:3px;width:60%;background:#D4A017;border-radius:2px;"></div></div>
-                <div style="color:rgba(255,255,255,0.65);font-size:.8rem;margin-top:.4rem">Cascavel, Brazil</div>
-            </div>
-            <div class="header-contact">
-                <a href="mailto:contato@geotecnia1.org">contato@geotecnia1.org</a>
-            </div>
-        </div>
-        <nav aria-label="breadcrumb" style="padding:.3rem 0;font-size:.78rem;color:rgba(255,255,255,0.75)"><ol style="list-style:none;display:flex;gap:.35rem;flex-wrap:wrap;padding:0;margin:0"><li><a href="/" style="color:inherit;text-decoration:none">Início</a></li><li>›</li><li>Sísmica e Especiais</li><li>›</li><li aria-current="page" style="color:rgba(255,255,255,0.95)">Microzoneamento Sísmico em Cascavel PR: Caracterização Dinâm…</li></ol></nav>
-        <h1>Microzoneamento Sísmico em Cascavel PR: Caracterização Dinâmica de Perfis</h1>
-    </div>
-</header>
-
-<div class="container">
-    <div class="content-area">
-        <aside class="sidebar">
-            <nav><a href="index.html" class="home">Início</a><div class="cat-item" data-cat="investigacao"><div class="cat-row"><a href="/investigacao/" class="cat-name">Exploração</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Exploração"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/ensaio-cpt/">Ensaio CPT (Cone Penetration Test)</a></div></div><div class="cat-item" data-cat="lab-in-situ"><div class="cat-row"><a href="/lab-in-situ/" class="cat-name">Ensaios in situ</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Ensaios in situ"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/densidade-cone-areia/">Ensaio de densidade in situ (método do cone de areia)</a></div></div><div class="cat-item" data-cat="laboratorio"><div class="cat-row"><a href="/laboratorio/" class="cat-name">Laboratório</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Laboratório"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/limites-atterberg/">Limites de Atterberg</a></div></div><div class="cat-item" data-cat="fundacoes"><div class="cat-row"><a href="/fundacoes/" class="cat-name">Fundações</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Fundações"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/estacas/">Projeto de fundações em estacas</a></div></div><div class="cat-item" data-cat="taludes"><div class="cat-row"><a href="/taludes/" class="cat-name">Taludes e muros</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Taludes e muros"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/estabilidade-taludes/">Análise de estabilidade de taludes</a><a href="/ancoragens/">Projeto de ancoragens ativas/passivas</a><a href="/muros-contencao/">Projeto de muros de contenção</a></div></div><div class="cat-item" data-cat="melhoramento"><div class="cat-row"><a href="/melhoramento/" class="cat-name">Melhoramento</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Melhoramento"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/colunas-brita/">Projeto de colunas de brita (stone columns)</a><a href="/vibrocompactacao/">Projeto de vibrocompactação</a></div></div><div class="cat-item" data-cat="sismica"><div class="cat-row"><a href="/sismica/" class="cat-name">Sísmica</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Sísmica"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/liquefacao/">Análise de liquefação de solos</a><a href="/microzoneamento-sismico/">Microzoneamento sísmico</a><a href="/isolamento-sismico/">Projeto de isolamento sísmico de base</a></div></div><div class="cat-item" data-cat="geotecnia-viaria"><div class="cat-row"><a href="/geotecnia-viaria/" class="cat-name">Geotecnia viária</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Geotecnia viária"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/cbr-viario/">Estudo CBR para projeto viário</a><a href="/pavimento-flexivel/">Projeto de pavimento flexível</a></div></div><div class="cat-item" data-cat="escavacoes"><div class="cat-row"><a href="/escavacoes/" class="cat-name">Escavações subterrâneas</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Escavações subterrâneas"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/tuneis-solo-mole/">Análise geotécnica para túneis em solo mole</a><a href="/monitoramento-escavacoes/">Monitoramento geotécnico de escavações</a><a href="/escavacoes-profundas/">Projeto geotécnico de escavações profundas</a></div></div></nav>
-        </aside>
-        <main>
-            <section><p>O basalto que forma a base geológica de Cascavel impõe um contraste de impedância sísmica muito particular: sobre a rocha sã repousam camadas espessas de latossolo vermelho, produto da intensa meteorização do planalto basáltico. Em nossa experiência no oeste paranaense, vemos que essa transição abrupta entre solo residual e rocha alterada gera amplificações locais que não aparecem nos mapas genéricos de ameaça. Por isso combinamos o <a data-interlink="1" href="/masw/">ensaio MASW</a> para obter o perfil de ondas de cisalhamento com a <a data-interlink="1" href="/refracao-sismica/">sísmica de refração</a> quando precisamos mapear a profundidade do contato solo-rocha com precisão métrica. A cidade, com seus 320 mil habitantes e altitude média de 780 metros, está sujeita a sismos intraplaca de magnitude moderada, e a norma NBR 15421:2006 exige a classificação sísmica de empreendimentos essenciais.</p></section>
-
-            <blockquote style="border-left:4px solid #D4A017;background:rgba(0,0,0,.03);padding:1rem 1.25rem;margin:1.5rem 0 1.5rem 1rem;font-style:italic;color:#333;font-size:1.05rem;line-height:1.55;border-radius:0 6px 6px 0">O Vs30 isolado não captura o efeito de contraste sísmico do basalto raso: é o gradiente de impedância entre o solo laterítico e o topo rochoso que controla a amplificação em Cascavel.</blockquote>
-
-            
-
-            <section>
-                <h2>Detalhes técnicos do serviço em Cascavel</h2>
-                <div>O erro mais frequente que observamos em projetos na região é adotar a classe de sítio B (rocha) para terrenos que, na sondagem, apresentam impenetrável a 6 ou 8 metros. O perfil típico de Cascavel tem uma crosta laterítica rija sobrejacente a um horizonte de solo saprolítico brando, e depois o basalto fraturado: essa configuração raramente corresponde a um sítio classe B. Para resolver essa ambiguidade, executamos linhas de aquisição com geofones de 4.5 Hz e processamento multiespectral que permite extrair a curva de dispersão até frequências suficientemente baixas. A classificação final do perfil de Vs30 se apoia nos critérios da NBR 15421 e, quando o projeto exige análise de resposta local não linear, também levantamos as curvas de degradação de rigidez com ensaios <a href="/triaxial/">triaxiais cíclicos</a>. Em zonas de aterro sobre basalto decomposto, a variabilidade lateral é tão alta que um único ponto de investigação pode induzir a erros graves de projeto.</div>
-            </section>
-
-            <figure style="margin:2rem auto;text-align:center;max-width:60%"><img src="/img/microzonificacion-sismica-4.webp" alt="Microzoneamento Sísmico em Cascavel PR: Caracterização Dinâmica de Perfis" width="600" height="300" loading="lazy" decoding="async" style="width:100%;max-height:160px;object-fit:cover;border-radius:8px"><figcaption style="font-size:.78rem;color:#64748b;margin-top:.4rem">Microzoneamento Sísmico em Cascavel PR: Caracterização Dinâmica de Perfis</figcaption></figure>
-
-            <div style="max-width:700px;margin:1.5rem auto;border-left:4px solid #D4A017;border-radius:6px;overflow:hidden;background:#FFF;box-shadow:0 1px 3px rgba(0,0,0,.05)"><table style="width:100%;border-collapse:collapse;font-size:.92rem"><thead><tr style="background:#D4A017;color:#FFF"><th style="padding:.75rem 1rem;text-align:left;font-weight:600">Parâmetro</th><th style="padding:.75rem 1rem;text-align:left;font-weight:600">Valor típico</th></tr></thead><tbody><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Método geofísico primário</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">MASW ativo com fonte de impacto (marreta de 8 kg)</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Método complementar</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">Refração sísmica com 24 canais e geofones de 14 Hz</td></tr><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Profundidade de investigação típica</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">30 a 40 metros, dependendo do comprimento do arranjo</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Parâmetro normativo obtido</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">Vs30 (m/s) para classificação de sítio NBR 15421</td></tr><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Período fundamental do solo</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">Determinado via razão espectral H/V com sismógrafo triaxial</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Norma de referência para aquisição</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">ABNT NBR 16499/D4428M-14 para crosshole e downhole; diretrizes ISSMGE para MASW</td></tr><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Produto final</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">Mapa de microzoneamento com isolinhas de Vs30 e classes de sítio</td></tr></tbody></table></div>
-
-            
-
-            <section>
-                <h2>Condições geotécnicas locais em Cascavel</h2>
-                <p>O equipamento que levamos a campo em Cascavel inclui um sismógrafo de 24 bits com conversor A/D de baixo ruído e geofones de 4.5 Hz acoplados ao solo laterítico com ponteiras de alumínio, porque a camada superficial de argila siltosa seca exige bom contato mecânico. O risco de subestimar a classe de sítio por excesso de confiança no impenetrável da sondagem SPT é real: um perfil com Vs30 acima de 360 m/s pode esconder uma inversão de velocidade que amplifica ondas em frequências danosas para edifícios de 4 a 8 pavimentos. Já investigamos terrenos onde o contraste de impedância a 15 metros de profundidade produziu fatores de amplificação acima de 2.5 na faixa de 2 a 5 Hz. Ignorar esse efeito e projetar com espectro de aceleração reduzido compromete o desempenho sísmico de estruturas essenciais, especialmente hospitais e escolas.</p>
-            </section>
-
-            
-    <section class="block mid-cta-cec5-cec5" style="padding:2rem 0">
-      <div style="max-width:720px;margin:0 auto;background:linear-gradient(135deg,#16A34A15,#16A34A08);border-left:4px solid #16A34A;padding:1.6rem 1.8rem;border-radius:8px;text-align:center">
-        <h3 style="margin:0 0 .4rem;font-size:1.15rem;color:#1E293B;text-align:center">Precisa de uma avaliação geotécnica?</h3>
-        <p style="margin:0 0 1rem;color:#64748B;font-size:.92rem;text-align:center">Resposta em menos de 24h.</p>
-        <div style="margin:.4rem 0 0;text-align:center"><a href="mailto:contato@geotecnia1.org" style="display:inline-block;background:#16A34A;color:#FFF !important;padding:1rem 2rem;border-radius:8px;text-decoration:none;font-weight:800;font-size:1.05rem;box-shadow:0 4px 12px rgba(0,0,0,.15)">Email: contato@geotecnia1.org</a></div>
-      </div>
-    </section>
-
-            <div class="normas">
-                <strong>Normas aplicáveis:</strong> NBR 15421:2006 – Projeto de estruturas resistentes a sismos, ABNT NBR 16499/D4428M-14 – Crosshole/Downhole Seismic Testing, ISSMGE – Guidelines for MASW (Multichannel Analysis of Surface Waves)
-            </div>
-
-            <section>
-                <h2>Nossos serviços</h2>
-                <p>O microzoneamento que realizamos em Cascavel integra aquisição geofísica, processamento espectral e interpretação geotécnica em um fluxo contínuo que vai do campo ao mapa final.</p>
-                <style>.servicios-grid .servicio{flex:0 0 calc(50% - .5rem);min-width:260px;padding:1rem 1.2rem;border:1px solid #E5E7EB;border-radius:10px;background:#FFFFFF;position:relative;transition:border-color .18s,box-shadow .18s,transform .18s}.servicios-grid a.servicio-link{display:block;text-decoration:none;color:inherit;cursor:pointer}.servicios-grid a.servicio-link:hover{border-color:#D4A017;box-shadow:0 4px 14px rgba(0,0,0,.08);transform:translateY(-2px)}.servicios-grid a.servicio-link:hover h3{color:#D4A017}.servicio-arrow{position:absolute;right:1rem;bottom:.8rem;color:#D4A017;font-weight:700;opacity:.55;transition:transform .18s,opacity .18s}.servicios-grid a.servicio-link:hover .servicio-arrow{transform:translateX(4px);opacity:1}.servicios-grid{display:flex;flex-wrap:wrap;gap:1rem;justify-content:flex-start}</style><div class="servicios-grid"><div class="servicio"><h3>Perfilagem MASW e Refração</h3><p>Linhas sísmicas com arranjos de 24 a 48 geofones para obter curvas de dispersão e tomografia de velocidades de ondas P e S, definindo o contato solo-rocha e a estratigrafia dinâmica do perfil.</p></div><div class="servicio"><h3>Medição de Período Fundamental com H/V</h3><p>Registro de ruído ambiental com sismógrafo triaxial de banda larga para determinar a frequência natural do terreno via razão espectral H/V (Nakamura), calibrando os modelos de amplificação local.</p></div><div class="servicio"><h3>Mapa de Classes de Sítio e Relatório Normativo</h3><p>Compilação dos perfis de Vs30 em mapa georreferenciado com isolinhas de velocidade, atribuição de classes de sítio (A a E) conforme NBR 15421 e memorial descritivo para aprovação em órgão competente.</p></div></div>
-            </section>
-
-            <section>
-                <h2>Consultas frequentes</h2>
-                <details><summary>Qual o custo típico de um microzoneamento sísmico em Cascavel?</summary><p></p></details><details><summary>Em que tipo de obra a NBR 15421 exige classificação sísmica do terreno?</summary><p>A norma brasileira exige a classificação sísmica para estruturas do Grupo Sísmico 3 (edificações essenciais como hospitais, quartéis de bombeiros, centros de emergência) e para estruturas do Grupo 2 com altura superior a 30 metros ou localizadas em zonas sísmicas 1, 2 ou 3 do mapa de ameaça.</p></details><details><summary>O basalto raso de Cascavel garante um sítio classe B?</summary><p>Não necessariamente. Embora o basalto são tenha velocidades de onda S superiores a 760 m/s, a presença de camadas de solo laterítico e saprolito acima da rocha reduz o Vs30 do perfil completo. Só a medição geofísica direta com MASW ou downhole pode confirmar a classe de sítio real.</p></details>
-            </section>
-
-            <section>
-                <h2>Cobertura em Cascavel</h2>
-                <link rel="stylesheet" href="/css/leaflet.css"/>
-                <div id="mapa-ciudad"></div>
-                <script src="/js/leaflet.js"></script>
-                <script>
-                    var map = L.map('mapa-ciudad').setView([-24.9554996,-53.4560544], 12);
-                    L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}@2x.png',{attribution:'&copy; OSM &copy; CARTO',subdomains:'abcd',maxZoom:19}).addTo(map);
-                    L.circle([-24.9554996,-53.4560544],{radius:3000,color:'#D4A017',fillColor:'#EAB308',fillOpacity:0.18,weight:2}).addTo(map).bindPopup('Coverage area — Cascavel');
-                </script>
-            </section>
-        <section class="block video-block" style="padding:2rem 1.5rem"><div style="max-width:720px;margin:0 auto"><h2 style="margin-bottom:1rem;font-weight:700;font-size:1.4rem">Vídeo explicativo</h2><div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:10px"><iframe src="https://www.youtube.com/embed/Upeqo48Y35I" style="position:absolute;top:0;left:0;width:100%;height:100%;border:none" loading="lazy" allowfullscreen></iframe></div></div></section></main>
-    </div>
-</div>
-
-<footer style="background:#0C1B33;color:rgba(255,255,255,.85);padding:2rem 1.5rem;text-align:center;font-size:.92rem">Cascavel, Brazil · <a href="mailto:contato@geotecnia1.org" style="color:#FFF;text-decoration:underline">contato@geotecnia1.org</a><div data-authority-refs class="authority-refs" style="text-align:center;font-size:.8rem;padding:.5rem 0;opacity:.6"><strong>Referências:</strong> <a href="https://www.abnt.org.br/" rel="nofollow noopener" target="_blank">Normas ABNT</a> · <a href="https://eurocodes.jrc.ec.europa.eu/showpage.php?id=132" rel="nofollow noopener" target="_blank">Eurocódigo 7</a> · <a href="https://www.iso.org/committee/49802.html" rel="nofollow noopener" target="_blank">ISO Geotécnica</a></div><div class="updated-info" data-updated="2026-04-08" style="text-align:center;font-size:.85rem;opacity:.7;padding:.5rem 0">Última atualização: 2026-04-08</div></footer>
-
-<script>
+<link rel="alternate" hreflang="pt-BR" href="https://cascavel.geotecnia1.org/microzoneamento-sismico/">
+</head><body><header><div class="container"><div class="header-top"><div><div style="display:inline-flex;flex-direction:column;gap:2px;"><span style="font-family:'Playfair Display',sans-serif;font-weight:800;color:#fafafa;letter-spacing:-0.02em;line-height:1;font-size:24px;">Cascavel</span><div style="height:3px;width:60%;background:#D4A017;border-radius:2px;"></div></div><div style="color:rgba(255,255,255,0.65);font-size:.8rem;margin-top:.4rem">Cascavel, Brazil</div></div><div class="header-contact"><a href="mailto:contato@geotecnia1.org">contato@geotecnia1.org</a></div></div><nav aria-label="breadcrumb" style="padding:.3rem 0;font-size:.78rem;color:rgba(255,255,255,0.75)"><ol style="list-style:none;display:flex;gap:.35rem;flex-wrap:wrap;padding:0;margin:0"><li><a href="/" style="color:inherit;text-decoration:none">Início</a></li><li>›</li><li>Sísmica e Especiais</li><li>›</li><li aria-current="page" style="color:rgba(255,255,255,0.95)">Microzoneamento Sísmico em Cascavel: Caracterização de Efeit…</li></ol></nav><h1>Microzoneamento Sísmico em Cascavel: Caracterização de Efeitos de Sítio com Métodos Geofísicos</h1></div></header><div class="container"><div class="content-area"><aside class="sidebar"><nav><a href="index.html" class="home">Início</a><div class="cat-item" data-cat="investigacao"><div class="cat-row"><a href="/investigacao/" class="cat-name">Exploração</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Exploração"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/ensaio-cpt/">Ensaio CPT (Cone Penetration Test)</a></div></div><div class="cat-item" data-cat="lab-in-situ"><div class="cat-row"><a href="/lab-in-situ/" class="cat-name">Ensaios in situ</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Ensaios in situ"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/densidade-cone-areia/">Ensaio de densidade in situ (método do cone de areia)</a></div></div><div class="cat-item" data-cat="laboratorio"><div class="cat-row"><a href="/laboratorio/" class="cat-name">Laboratório</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Laboratório"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/limites-atterberg/">Limites de Atterberg</a></div></div><div class="cat-item" data-cat="fundacoes"><div class="cat-row"><a href="/fundacoes/" class="cat-name">Fundações</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Fundações"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/estacas/">Projeto de fundações em estacas</a></div></div><div class="cat-item" data-cat="taludes"><div class="cat-row"><a href="/taludes/" class="cat-name">Taludes e muros</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Taludes e muros"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/estabilidade-taludes/">Análise de estabilidade de taludes</a><a href="/ancoragens/">Projeto de ancoragens ativas/passivas</a><a href="/muros-contencao/">Projeto de muros de contenção</a></div></div><div class="cat-item" data-cat="melhoramento"><div class="cat-row"><a href="/melhoramento/" class="cat-name">Melhoramento</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Melhoramento"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/colunas-brita/">Projeto de colunas de brita (stone columns)</a><a href="/vibrocompactacao/">Projeto de vibrocompactação</a></div></div><div class="cat-item" data-cat="sismica"><div class="cat-row"><a href="/sismica/" class="cat-name">Sísmica</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Sísmica"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/liquefacao/">Análise de liquefação de solos</a><a href="/microzoneamento-sismico/">Microzoneamento sísmico</a><a href="/isolamento-sismico/">Projeto de isolamento sísmico de base</a></div></div><div class="cat-item" data-cat="geotecnia-viaria"><div class="cat-row"><a href="/geotecnia-viaria/" class="cat-name">Geotecnia viária</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Geotecnia viária"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/cbr-viario/">Estudo CBR para projeto viário</a><a href="/pavimento-flexivel/">Projeto de pavimento flexível</a></div></div><div class="cat-item" data-cat="escavacoes"><div class="cat-row"><a href="/escavacoes/" class="cat-name">Escavações subterrâneas</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Escavações subterrâneas"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/tuneis-solo-mole/">Análise geotécnica para túneis em solo mole</a><a href="/monitoramento-escavacoes/">Monitoramento geotécnico de escavações</a><a href="/escavacoes-profundas/">Projeto geotécnico de escavações profundas</a></div></div></nav></aside><main><section><p>O basalto da Formação Serra Geral define o subsolo de Cascavel, mas a alteração dessa rocha gera perfis de solo laterítico e saprolítico com comportamentos muito distintos sob vibração. A cidade está na transição entre o Terceiro Planalto Paranaense e patamares mais dissecados, com espessuras variáveis de solo residual que podem amplificar ondas sísmicas de forma heterogênea. Em nossa experiência, ignorar essa variabilidade em planta é um erro comum que compromete a segurança estrutural. O <a data-interlink="1" href="/ensaio-cpt/">ensaio CPT</a> ajuda a mapear a rigidez desses horizontes de alteração quando o contato rochoso é irregular, enquanto a <a data-interlink="1" href="/refracao-sismica/">refração sísmica</a> entrega uma imagem contínua do topo rochoso e das camadas sobrejacentes. O microzoneamento sísmico em Cascavel exige integrar geofísica, sondagens mecânicas e ensaios dinâmicos de laboratório para construir espectros de resposta representativos de cada unidade geotécnica.</p></section><blockquote style="border-left:4px solid #D4A017;background:rgba(0,0,0,.03);padding:1rem 1.25rem;margin:1.5rem 0 1.5rem 1rem;font-style:italic;color:#333;font-size:1.05rem;line-height:1.55;border-radius:0 6px 6px 0">Em Cascavel, a espessura do solo de alteração do basalto controla a amplificação sísmica: perfis com mais de 20 metros podem subir uma classe de sítio e dobrar as ordenadas espectrais.</blockquote><section><h2>Detalhes técnicos do serviço em Cascavel</h2><div>Um erro típico em obras na região de Cascavel é adotar um perfil de solo homogêneo baseado em um único furo, quando a realidade mostra intercalações de linhas de pedra, horizontes concrecionários e variações bruscas na densidade do solo. O microzoneamento resolve esse problema ao cruzar dezenas de pontos de investigação: usamos o <a href="/masw/">MASW</a> para obter perfis de Vs30 em malhas de 200 a 500 metros, calibrados com sondagens SPT a cada ponto de controle. A NBR 15421:2006 orienta a definição das acelerações de projeto, e complementamos a classificação de sítio com o critério NEHRP, que em Cascavel frequentemente aponta classes C e D onde o solo de alteração ultrapassa 15 metros de espessura. Para fundações profundas nessas áreas, a combinação com <a href="/estacas/">estacas</a> exige espectros de sítio específicos — não basta o espectro genérico da norma, porque a amplificação em solos lateríticos difere daquela medida em sedimentos de outras regiões.</div></section><figure style="margin:2rem auto;text-align:center;max-width:60%"><img src="/img/microzonificacion-sismica-4.webp" alt="Microzoneamento Sísmico em Cascavel: Caracterização de Efeitos de Sítio com Métodos Geofísicos" width="600" height="300" loading="eager" decoding="async" style="width:100%;max-height:160px;object-fit:cover;border-radius:8px" fetchpriority="high"><figcaption style="font-size:.78rem;color:#64748b;margin-top:.4rem">Microzoneamento Sísmico em Cascavel: Caracterização de Efeitos de Sítio com Métodos Geofísicos</figcaption></figure><div style="max-width:700px;margin:1.5rem auto;border-left:4px solid #D4A017;border-radius:6px;overflow:hidden;background:#FFF;box-shadow:0 1px 3px rgba(0,0,0,.05)"><table style="width:100%;border-collapse:collapse;font-size:.92rem"><thead><tr style="background:#D4A017;color:#FFF"><th style="padding:.75rem 1rem;text-align:left;font-weight:600">Parâmetro</th><th style="padding:.75rem 1rem;text-align:left;font-weight:600">Valor típico</th></tr></thead><tbody><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Metodologia principal</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">MASW ativo + passivo (arranjo linear e circular)</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Parâmetro medido</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">Vs30 conforme NEHRP e NBR 15421</td></tr><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Profundidade de investigação</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">30 a 60 metros (atingindo topo rochoso)</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Malha típica em Cascavel</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">200 m em centros urbanos, 500 m em zonas de expansão</td></tr><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Calibração obrigatória</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">Sondagem SPT ou poço de inspeção a cada 4-6 pontos MASW</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Classes de sítio esperadas</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">C (solo muito denso) e D (solo rígido) — predominantes</td></tr><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Ensaio dinâmico complementar</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">Triaxial cíclico para curvas G/Gmax e amortecimento</td></tr></tbody></table></div><section><h2>Condições geotécnicas locais em Cascavel</h2><p>O equipamento de MASW em Cascavel opera com geofones de 4,5 Hz dispostos em arranjos de 24 a 48 canais, combinando fonte ativa de marreta de 8 kg com registros passivos de microtremores noturnos para estender a profundidade de investigação além dos 30 metros. O risco mais subestimado na região é a presença de matacões de basalto pouco alterados imersos em solo laterítico mole: eles geram inversão de velocidade que o MASW comum não resolve bem, exigindo análise conjunta com o <a data-interlink="1" href="/ensaio-cpt/">ensaio CPT</a> para detectar contrastes de impedância localizados. Outro fator crítico é a umidade do solo nos períodos de chuva intensa entre outubro e março, que reduz a rigidez dos horizontes superficiais e pode deslocar a frequência fundamental do terreno — ignorar essa sazonalidade leva a espectros de projeto subestimados e dimensionamento inadequado de estruturas de contenção e fundações.</p></section><section class="block mid-cta-cec5" style="padding:2rem 0"><div style="max-width:720px;margin:0 auto;background:linear-gradient(135deg,#16A34A15,#16A34A08);border-left:4px solid #16A34A;padding:1.6rem 1.8rem;border-radius:8px;text-align:center"><h3 style="margin:0 0 .4rem;font-size:1.15rem;color:#1E293B;text-align:center">Precisa de uma avaliação geotécnica?</h3><p style="margin:0 0 1rem;color:#64748B;font-size:.92rem;text-align:center">Resposta em menos de 24h.</p><div style="margin:.4rem 0 0;text-align:center"><a href="mailto:contato@geotecnia1.org" style="display:inline-block;background:#16A34A;color:#FFF !important;padding:1rem 2rem;border-radius:8px;text-decoration:none;font-weight:800;font-size:1.05rem;box-shadow:0 4px 12px rgba(0,0,0,.15)">Email: contato@geotecnia1.org</a></div></div></section><div class="normas"><strong>Normas aplicáveis:</strong> ABNT NBR 15421:2006 — Projeto de estruturas resistentes a sismos, NEHRP Recommended Provisions (FEMA P-1050) — Seismic Provisions for New Buildings, ABNT NBR 16499/D4428M-14 — Crosshole Seismic Testing, ABNT NBR 6484:2020 — Sondagens de simples reconhecimento com SPT (calibração), Eurocode 8 (EN 1998-1:2004) — referência complementar para definição de ação sísmica </div><section><h2>Nossos serviços</h2><p>O microzoneamento que entregamos em Cascavel não se limita a mapas de Vs30. Montamos um pacote de investigação que combina geofísica, sondagens e ensaios dinâmicos de laboratório, calibrado ponto a ponto para que o engenheiro projetista tenha espectros de resposta por unidade geotécnica, e não apenas uma classe de sítio genérica.</p><style>/*afx*/.servicios-grid .servicio{flex:0 0 calc(50% - .5rem);min-width:260px;padding:1rem 1.2rem;border:1px solid #E5E7EB;border-radius:10px;background:#FFFFFF;position:relative;transition:border-color .18s,box-shadow .18s,transform .18s}
+.servicios-grid a.servicio-link:hover .servicio-arrow{transform:translateX(4px);opacity:1}
+.servicios-grid a.servicio-link:hover{border-color:#D4A017;box-shadow:0 4px 14px rgba(0,0,0,.08);transform:translateY(-2px)}
+/*sbhfix*/aside .sb-home{color:#FFF !important}
+.servicios-grid a.servicio-link:hover h3{color:#D4A017}
+.servicios-grid a.servicio-link{display:block;text-decoration:none;color:inherit;cursor:pointer}
+.servicio-arrow{position:absolute;right:1rem;bottom:.8rem;color:#D4A017;font-weight:700;opacity:.55;transition:transform .18s,opacity .18s}
+.servicios-grid{display:flex;flex-wrap:wrap;gap:1rem;justify-content:flex-start}</style><div class="servicios-grid"><div class="servicio"><h3>Perfis MASW com calibração SPT</h3><p>Arranjos de 24 e 48 canais com fonte ativa e registro passivo, calibrados com sondagens SPT a cada 4 pontos. Inclui curva de dispersão, perfil de Vs e classificação de sítio conforme NBR 15421.</p></div><div class="servicio"><h3>Triaxial cíclico para curvas de degradação</h3><p>Ensaios em amostras indeformadas dos horizontes de alteração para obter curvas G/Gmax e razão de amortecimento versus deformação, alimentando análises numéricas de resposta local.</p></div><div class="servicio"><h3>Mapas de período fundamental e espectros de projeto</h3><p>Geração de mapas de isoperíodos e espectros de resposta normalizados por unidade geotécnica, compatíveis com software de análise estrutural sísmica e com a nova geração de mapas de ameaça sísmica do Brasil.</p></div></div></section><section><h2>Perguntas comuns</h2><details><summary>Cascavel tem risco sísmico real ou é só exigência normativa?</summary><p>A região Sul do Brasil registra sismos de baixa a moderada magnitude, com epicentros no interior do Paraná e estados vizinhos. A normativa NBR 15421:2006 exige verificação sísmica para estruturas essenciais e de grande porte. O microzoneamento não parte de sismos frequentes, mas da amplificação do movimento em solos de alteração — e em Cascavel essa amplificação é real e medida. Um perfil de 25 metros de solo sobre basalto pode amplificar acelerações em 2 a 3 vezes em relação ao esperado em rocha.</p></details><details><summary>Qual o custo médio de um microzoneamento sísmico para um loteamento em Cascavel?</summary><p>Um estudo de microzoneamento para um loteamento de 20 a 50 hectares em Cascavel fica na faixa de $100.000, considerando malha de pontos MASW, sondagens de calibração, ensaios triaxiais cíclicos e emissão do relatório com espectros de projeto. Esse valor pode variar conforme a densidade da malha exigida, acessibilidade do terreno e número de unidades geotécnicas identificadas.</p></details><details><summary>O microzoneamento sísmico substitui a sondagem SPT de fundação?</summary><p>Não substitui, complementa. O SPT fornece o índice de resistência à penetração e o nível d'água, essenciais para dimensionamento de fundações. O microzoneamento sísmico agrega a velocidade de onda cisalhante e o período fundamental do terreno, parâmetros que o SPT não mede. A NBR 15421 exige os dois conjuntos de dados para definir a ação sísmica de projeto.</p></details></section><section><h2>Cobertura em Cascavel</h2><link rel="stylesheet" href="/css/leaflet-3bcf.css"/><div id="mapa-ciudad"></div><script src="/js/leaflet-3bcf.js"></script><script>
+var map = L.map('mapa-ciudad').setView([-24.9554996,-53.4560544], 12);
+L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}@2x.png',{attribution:'&copy; OSM &copy; CARTO',subdomains:'abcd',maxZoom:19}).addTo(map);L.marker([-24.9554996,-53.4560544],{icon:L.divIcon({html:'<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 36\" width=\"24\" height=\"36\"><path d=\"M12 0C5.4 0 0 5.4 0 12c0 9 12 24 12 24s12-15 12-24c0-6.6-5.4-12-12-12z\" fill=\"#E11D48\" stroke=\"#FFF\" stroke-width=\"1.5\"/><circle cx=\"12\" cy=\"12\" r=\"4\" fill=\"#FFF\"/></svg>',className:'',iconSize:[24,36],iconAnchor:[12,36]})}).addTo(map);
+L.circle([-24.9554996,-53.4560544],{radius:3000,color:'#D4A017',fillColor:'#EAB308',fillOpacity:0.18,weight:2}).addTo(map).bindPopup('Coverage area — Cascavel');
+</script></section></main></div></div><footer style="background:#0C1B33;color:rgba(255,255,255,.85);padding:2rem 1.5rem;text-align:center;font-size:.92rem">Cascavel, Brazil · <a href="mailto:contato@geotecnia1.org" style="color:#FFF;text-decoration:underline">contato@geotecnia1.org</a><div data-authority-refs class="authority-refs" style="text-align:center;font-size:.8rem;padding:.5rem 0;opacity:.6"><strong>Referências:</strong><a href="https://www.abnt.org.br/" rel="nofollow noopener" target="_blank">Normas ABNT</a> · <a href="https://eurocodes.jrc.ec.europa.eu/showpage.php?id=132" rel="nofollow noopener" target="_blank">Eurocódigo 7</a> · <a href="https://www.iso.org/committee/49802.html" rel="nofollow noopener" target="_blank">ISO Geotécnica</a></div><div class="updated-info" data-updated="2026-04-04" style="text-align:center;font-size:.85rem;opacity:.7;padding:.5rem 0">Última atualização: 2026-04-04</div></footer><script>
 // Sidebar cat-toggle: click expande/contrae cat-sub (REGLA 30b)
 document.addEventListener('click', function(e) {
-    var btn = e.target.closest('.cat-toggle');
-    if (!btn) return;
-    e.preventDefault();
-    var item = btn.closest('.cat-item');
-    if (!item) return;
-    var sub = item.querySelector('.cat-sub');
-    if (!sub) return;
-    var open = btn.getAttribute('aria-expanded') === 'true';
-    btn.setAttribute('aria-expanded', open ? 'false' : 'true');
-    if (open) {
-        sub.setAttribute('hidden', '');
-    } else {
-        sub.removeAttribute('hidden');
-    }
+var btn = e.target.closest('.cat-toggle');
+if (!btn) return;
+e.preventDefault();
+var item = btn.closest('.cat-item');
+if (!item) return;
+var sub = item.querySelector('.cat-sub');
+if (!sub) return;
+var open = btn.getAttribute('aria-expanded') === 'true';
+btn.setAttribute('aria-expanded', open ? 'false' : 'true');
+if (open) {
+sub.setAttribute('hidden', '');
+} else {
+sub.removeAttribute('hidden');
+}
 });
-</script>
-</body>
-</html>
+</script></body></html>
